@@ -1,0 +1,533 @@
+27.09.2006 20:36:47	STATUS:	--- Output logging has started ---
+27.09.2006 20:36:47	STATUS:	External Activator is initializing...
+27.09.2006 20:36:47	STATUS:	Running recovery using 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\03 MultipleExternalProcessingApplications\ExternalActivator\ExternalActivator.exe.RecoveryLog' ...
+27.09.2006 20:36:47	STATUS:	Recovery completed.
+27.09.2006 20:36:47	STATUS:	Initializing configuration manager...
+27.09.2006 20:36:47	STATUS:	Debug information will be reported in the output log.
+27.09.2006 20:36:47	STATUS:	External Activator initialization completed.
+27.09.2006 20:36:47	DEBUG:	Re-reading the Configuration File because Configuration File changes might have occurred before FileSystemWatcher was registered
+27.09.2006 20:36:47	DEBUG:	Starting up any applications if number of instances is below minimum
+27.09.2006 20:36:47	DEBUG:	Starting up the Notification service...
+27.09.2006 20:36:47	INFO:	Connection to notification SQL server 'localhost' and database 'Chapter4_ExternalActivationMultipleActivatedApplications' is established.
+27.09.2006 20:36:47	INFO:	Notification service 'ExternalActivatorService' is started.
+27.09.2006 20:36:47	DEBUG:	Processing received message...
+27.09.2006 20:36:47	DEBUG:	Trying to start application associated with [WINXP_KLAUS].[Chapter4_ExternalActivationMultipleActivatedApplications].[dbo].[TargetQueue1] because a notification message was received.
+27.09.2006 20:36:47	DEBUG:	Activating process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\03 MultipleExternalProcessingApplications\ProcessingApplication1\bin\Debug\ProcessingApplication1.exe' associated with [WINXP_KLAUS].[Chapter4_ExternalActivationMultipleActivatedApplications].[dbo].[TargetQueue1] number of running instances is 0 and Max is 5.
+27.09.2006 20:36:47	DEBUG:	Using standard Out, In and Error for process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\03 MultipleExternalProcessingApplications\ProcessingApplication1\bin\Debug\ProcessingApplication1.exe'.
+27.09.2006 20:36:48	DEBUG:	Process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\03 MultipleExternalProcessingApplications\ProcessingApplication1\bin\Debug\ProcessingApplication1.exe' started with pid: 6016
+27.09.2006 20:36:48	DEBUG:	Received message is processed.
+27.09.2006 20:36:48	DEBUG:	Processing received message...
+27.09.2006 20:36:48	DEBUG:	Trying to start application associated with [WINXP_KLAUS].[Chapter4_ExternalActivationMultipleActivatedApplications].[dbo].[TargetQueue2] because a notification message was received.
+27.09.2006 20:36:48	DEBUG:	Activating process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\03 MultipleExternalProcessingApplications\ProcessingApplication2\bin\Debug\ProcessingApplication2.exe' associated with [WINXP_KLAUS].[Chapter4_ExternalActivationMultipleActivatedApplications].[dbo].[TargetQueue2] number of running instances is 0 and Max is 5.
+27.09.2006 20:36:48	DEBUG:	Using standard Out, In and Error for process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\03 MultipleExternalProcessingApplications\ProcessingApplication2\bin\Debug\ProcessingApplication2.exe'.
+27.09.2006 20:36:48	DEBUG:	Process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\03 MultipleExternalProcessingApplications\ProcessingApplication2\bin\Debug\ProcessingApplication2.exe' started with pid: 2444
+27.09.2006 20:36:48	DEBUG:	Received message is processed.
+27.09.2006 20:37:01	DEBUG:	Process with pid: 6016 died.
+27.09.2006 20:37:01	DEBUG:	Process with pid: 2444 died.
+27.09.2006 20:37:07	STATUS:	Monitored applications status
+27.09.2006 20:37:07	STATUS DETAILS:	    Application associated with [WINXP_KLAUS].[Chapter4_ExternalActivationMultipleActivatedApplications].[dbo].[TargetQueue2] monitors 0 running processes. 1 processes were started successfully, last one at 27.09.2006 20:36:48.
+27.09.2006 20:37:07	STATUS DETAILS:	    Application associated with [WINXP_KLAUS].[Chapter4_ExternalActivationMultipleActivatedApplications].[dbo].[TargetQueue1] monitors 0 running processes. 1 processes were started successfully, last one at 27.09.2006 20:36:48.
+27.09.2006 20:37:17	DEBUG:	Check for monitored applications that need to start processes.
+27.09.2006 20:37:17	DEBUG:	Starting up any applications if number of instances is below minimum
+27.09.2006 20:37:44	STATUS:	External Activator is shutting down...
+27.09.2006 20:37:44	STATUS:	Shutting down the recovery log manager
+27.09.2006 20:37:44	DEBUG:	Checkpointing the recovery log ...
+27.09.2006 20:37:44	DEBUG:	Checkpointed the recovery log.
+27.09.2006 20:37:57	STATUS:	--- Output logging has started ---
+27.09.2006 20:37:57	STATUS:	External Activator is initializing...
+27.09.2006 20:37:57	STATUS:	Running recovery using 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\03 MultipleExternalProcessingApplications\ExternalActivator\ExternalActivator.exe.RecoveryLog' ...
+27.09.2006 20:37:57	STATUS:	Recovery completed.
+27.09.2006 20:37:57	STATUS:	Initializing configuration manager...
+27.09.2006 20:37:57	STATUS:	Debug information will be reported in the output log.
+27.09.2006 20:37:57	STATUS:	External Activator initialization completed.
+27.09.2006 20:37:57	DEBUG:	Re-reading the Configuration File because Configuration File changes might have occurred before FileSystemWatcher was registered
+27.09.2006 20:37:57	DEBUG:	Starting up any applications if number of instances is below minimum
+27.09.2006 20:37:57	DEBUG:	Starting up the Notification service...
+27.09.2006 20:37:57	INFO:	Connection to notification SQL server 'localhost' and database 'Chapter4_ExternalActivationMultipleActivatedApplications' is established.
+27.09.2006 20:37:57	INFO:	Notification service 'ExternalActivatorService' is started.
+27.09.2006 20:38:01	STATUS:	Notification service 'ExternalActivatorService' on SQL Server 'localhost' and Database 'Chapter4_ExternalActivationMultipleActivatedApplications' is connected to the database and working.
+27.09.2006 20:38:05	STATUS:	Monitored applications status
+27.09.2006 20:38:05	STATUS DETAILS:	    Application associated with [WINXP_KLAUS].[Chapter4_ExternalActivationMultipleActivatedApplications].[dbo].[TargetQueue2] monitors 0 running processes. 0 processes were started successfully.
+27.09.2006 20:38:05	STATUS DETAILS:	    Application associated with [WINXP_KLAUS].[Chapter4_ExternalActivationMultipleActivatedApplications].[dbo].[TargetQueue1] monitors 0 running processes. 0 processes were started successfully.
+27.09.2006 20:38:10	STATUS:	External Activator is shutting down...
+27.09.2006 20:38:10	STATUS:	Shutting down the recovery log manager
+27.09.2006 20:38:10	DEBUG:	Checkpointing the recovery log ...
+27.09.2006 20:38:10	DEBUG:	Checkpointed the recovery log.
+27.09.2006 20:39:48	STATUS:	--- Output logging has started ---
+27.09.2006 20:39:48	STATUS:	External Activator is initializing...
+27.09.2006 20:39:48	STATUS:	Running recovery using 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\03 MultipleExternalProcessingApplications\ExternalActivator\ExternalActivator.exe.RecoveryLog' ...
+27.09.2006 20:39:48	STATUS:	Recovery completed.
+27.09.2006 20:39:48	STATUS:	Initializing configuration manager...
+27.09.2006 20:39:48	STATUS:	Debug information will be reported in the output log.
+27.09.2006 20:39:48	STATUS:	External Activator initialization completed.
+27.09.2006 20:39:48	DEBUG:	Re-reading the Configuration File because Configuration File changes might have occurred before FileSystemWatcher was registered
+27.09.2006 20:39:48	DEBUG:	Starting up any applications if number of instances is below minimum
+27.09.2006 20:39:48	DEBUG:	Starting up the Notification service...
+27.09.2006 20:39:48	INFO:	Connection to notification SQL server 'localhost' and database 'Chapter4_ExternalActivationMultipleActivatedApplications' is established.
+27.09.2006 20:39:48	INFO:	Notification service 'ExternalActivatorService' is started.
+27.09.2006 20:39:48	DEBUG:	Processing received message...
+27.09.2006 20:39:48	DEBUG:	Trying to start application associated with [WINXP_KLAUS].[Chapter4_ExternalActivationMultipleActivatedApplications].[dbo].[TargetQueue1] because a notification message was received.
+27.09.2006 20:39:48	DEBUG:	Activating process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\03 MultipleExternalProcessingApplications\ProcessingApplication1\bin\Debug\ProcessingApplication1.exe' associated with [WINXP_KLAUS].[Chapter4_ExternalActivationMultipleActivatedApplications].[dbo].[TargetQueue1] number of running instances is 0 and Max is 5.
+27.09.2006 20:39:48	DEBUG:	Using standard Out, In and Error for process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\03 MultipleExternalProcessingApplications\ProcessingApplication1\bin\Debug\ProcessingApplication1.exe'.
+27.09.2006 20:39:48	DEBUG:	Process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\03 MultipleExternalProcessingApplications\ProcessingApplication1\bin\Debug\ProcessingApplication1.exe' started with pid: 4744
+27.09.2006 20:39:48	DEBUG:	Received message is processed.
+27.09.2006 20:39:48	DEBUG:	Processing received message...
+27.09.2006 20:39:48	DEBUG:	Trying to start application associated with [WINXP_KLAUS].[Chapter4_ExternalActivationMultipleActivatedApplications].[dbo].[TargetQueue2] because a notification message was received.
+27.09.2006 20:39:48	DEBUG:	Activating process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\03 MultipleExternalProcessingApplications\ProcessingApplication2\bin\Debug\ProcessingApplication2.exe' associated with [WINXP_KLAUS].[Chapter4_ExternalActivationMultipleActivatedApplications].[dbo].[TargetQueue2] number of running instances is 0 and Max is 5.
+27.09.2006 20:39:48	DEBUG:	Using standard Out, In and Error for process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\03 MultipleExternalProcessingApplications\ProcessingApplication2\bin\Debug\ProcessingApplication2.exe'.
+27.09.2006 20:39:48	DEBUG:	Process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\03 MultipleExternalProcessingApplications\ProcessingApplication2\bin\Debug\ProcessingApplication2.exe' started with pid: 3560
+27.09.2006 20:39:48	DEBUG:	Received message is processed.
+27.09.2006 20:39:59	DEBUG:	Process with pid: 3560 died.
+27.09.2006 20:39:59	DEBUG:	Process with pid: 4744 died.
+27.09.2006 20:40:12	DEBUG:	Processing received message...
+27.09.2006 20:40:12	DEBUG:	Trying to start application associated with [WINXP_KLAUS].[Chapter4_ExternalActivationMultipleActivatedApplications].[dbo].[TargetQueue2] because a notification message was received.
+27.09.2006 20:40:12	DEBUG:	Activating process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\03 MultipleExternalProcessingApplications\ProcessingApplication2\bin\Debug\ProcessingApplication2.exe' associated with [WINXP_KLAUS].[Chapter4_ExternalActivationMultipleActivatedApplications].[dbo].[TargetQueue2] number of running instances is 0 and Max is 5.
+27.09.2006 20:40:12	DEBUG:	Using standard Out, In and Error for process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\03 MultipleExternalProcessingApplications\ProcessingApplication2\bin\Debug\ProcessingApplication2.exe'.
+27.09.2006 20:40:12	DEBUG:	Process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\03 MultipleExternalProcessingApplications\ProcessingApplication2\bin\Debug\ProcessingApplication2.exe' started with pid: 4720
+27.09.2006 20:40:12	DEBUG:	Received message is processed.
+27.09.2006 20:40:18	DEBUG:	Check for monitored applications that need to start processes.
+27.09.2006 20:40:18	DEBUG:	Starting up any applications if number of instances is below minimum
+27.09.2006 20:40:25	STATUS:	Monitored applications status
+27.09.2006 20:40:25	STATUS DETAILS:	    Application associated with [WINXP_KLAUS].[Chapter4_ExternalActivationMultipleActivatedApplications].[dbo].[TargetQueue2] monitors 1 running processes. 2 processes were started successfully, last one at 27.09.2006 20:40:12.
+27.09.2006 20:40:25	STATUS DETAILS:	    Application associated with [WINXP_KLAUS].[Chapter4_ExternalActivationMultipleActivatedApplications].[dbo].[TargetQueue1] monitors 0 running processes. 1 processes were started successfully, last one at 27.09.2006 20:39:48.
+27.09.2006 20:40:27	DEBUG:	Process with pid: 4720 died.
+27.09.2006 20:40:28	STATUS:	Monitored applications status
+27.09.2006 20:40:28	STATUS DETAILS:	    Application associated with [WINXP_KLAUS].[Chapter4_ExternalActivationMultipleActivatedApplications].[dbo].[TargetQueue2] monitors 0 running processes. 2 processes were started successfully, last one at 27.09.2006 20:40:12.
+27.09.2006 20:40:28	STATUS DETAILS:	    Application associated with [WINXP_KLAUS].[Chapter4_ExternalActivationMultipleActivatedApplications].[dbo].[TargetQueue1] monitors 0 running processes. 1 processes were started successfully, last one at 27.09.2006 20:39:48.
+27.09.2006 20:40:32	DEBUG:	Processing received message...
+27.09.2006 20:40:32	DEBUG:	Trying to start application associated with [WINXP_KLAUS].[Chapter4_ExternalActivationMultipleActivatedApplications].[dbo].[TargetQueue2] because a notification message was received.
+27.09.2006 20:40:32	DEBUG:	Activating process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\03 MultipleExternalProcessingApplications\ProcessingApplication2\bin\Debug\ProcessingApplication2.exe' associated with [WINXP_KLAUS].[Chapter4_ExternalActivationMultipleActivatedApplications].[dbo].[TargetQueue2] number of running instances is 0 and Max is 5.
+27.09.2006 20:40:32	DEBUG:	Using standard Out, In and Error for process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\03 MultipleExternalProcessingApplications\ProcessingApplication2\bin\Debug\ProcessingApplication2.exe'.
+27.09.2006 20:40:32	DEBUG:	Process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\03 MultipleExternalProcessingApplications\ProcessingApplication2\bin\Debug\ProcessingApplication2.exe' started with pid: 4124
+27.09.2006 20:40:32	DEBUG:	Received message is processed.
+27.09.2006 20:40:44	DEBUG:	Process with pid: 4124 died.
+27.09.2006 20:40:45	STATUS:	External Activator is shutting down...
+27.09.2006 20:40:45	STATUS:	Shutting down the recovery log manager
+27.09.2006 20:40:45	DEBUG:	Checkpointing the recovery log ...
+27.09.2006 20:40:45	DEBUG:	Checkpointed the recovery log.
+27.09.2006 20:54:32	STATUS:	--- Output logging has started ---
+27.09.2006 20:54:32	STATUS:	External Activator is initializing...
+27.09.2006 20:54:32	STATUS:	Running recovery using 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\03 MultipleExternalProcessingApplications\ExternalActivator\ExternalActivator.exe.RecoveryLog' ...
+27.09.2006 20:54:32	STATUS:	Recovery completed.
+27.09.2006 20:54:32	STATUS:	Initializing configuration manager...
+27.09.2006 20:54:32	STATUS:	Debug information will be reported in the output log.
+27.09.2006 20:54:32	STATUS:	External Activator initialization completed.
+27.09.2006 20:54:32	DEBUG:	Re-reading the Configuration File because Configuration File changes might have occurred before FileSystemWatcher was registered
+27.09.2006 20:54:32	DEBUG:	Starting up any applications if number of instances is below minimum
+27.09.2006 20:54:32	DEBUG:	Starting up the Notification service...
+27.09.2006 20:54:33	INFO:	Connection to notification SQL server 'localhost' and database 'Chapter4_ExternalActivationMultipleActivatedApplications' is established.
+27.09.2006 20:54:33	INFO:	Notification service 'ExternalActivatorService' is started.
+27.09.2006 20:54:36	STATUS:	External Activator is shutting down...
+27.09.2006 20:54:36	STATUS:	Shutting down the recovery log manager
+27.09.2006 20:54:36	DEBUG:	Checkpointing the recovery log ...
+27.09.2006 20:54:36	DEBUG:	Checkpointed the recovery log.
+28.09.2006 19:02:53	STATUS:	--- Output logging has started ---
+28.09.2006 19:02:53	STATUS:	External Activator is initializing...
+28.09.2006 19:02:53	STATUS:	Running recovery using 'D:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\03 MultipleExternalProcessingApplications\ExternalActivator\ExternalActivator.exe.RecoveryLog' ...
+28.09.2006 19:02:53	STATUS:	Recovery completed.
+28.09.2006 19:02:53	STATUS:	Initializing configuration manager...
+28.09.2006 19:02:55	STATUS:	Debug information will be reported in the output log.
+28.09.2006 19:02:55	STATUS:	External Activator initialization completed.
+28.09.2006 19:02:55	DEBUG:	Re-reading the Configuration File because Configuration File changes might have occurred before FileSystemWatcher was registered
+28.09.2006 19:02:55	DEBUG:	Starting up any applications if number of instances is below minimum
+28.09.2006 19:02:55	DEBUG:	Starting up the Notification service...
+28.09.2006 19:02:55	INFO:	Connection to notification SQL server 'localhost' and database 'Chapter4_ExternalActivationMultipleActivatedApplications' is established.
+28.09.2006 19:02:55	INFO:	Notification service 'ExternalActivatorService' is started.
+28.09.2006 19:02:56	STATUS:	External Activator is shutting down...
+28.09.2006 19:02:56	STATUS:	Shutting down the recovery log manager
+28.09.2006 19:02:56	DEBUG:	Checkpointing the recovery log ...
+28.09.2006 19:02:56	DEBUG:	Checkpointed the recovery log.
+28.09.2006 19:08:20	STATUS:	--- Output logging has started ---
+28.09.2006 19:08:20	STATUS:	External Activator is initializing...
+28.09.2006 19:08:20	STATUS:	Running recovery using 'D:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\03 MultipleExternalProcessingApplications\ExternalActivator\ExternalActivator.exe.RecoveryLog' ...
+28.09.2006 19:08:20	STATUS:	Recovery completed.
+28.09.2006 19:08:20	STATUS:	Initializing configuration manager...
+28.09.2006 19:08:21	STATUS:	Debug information will be reported in the output log.
+28.09.2006 19:08:21	STATUS:	External Activator initialization completed.
+28.09.2006 19:08:21	DEBUG:	Re-reading the Configuration File because Configuration File changes might have occurred before FileSystemWatcher was registered
+28.09.2006 19:08:21	DEBUG:	Starting up any applications if number of instances is below minimum
+28.09.2006 19:08:21	DEBUG:	Starting up the Notification service...
+28.09.2006 19:08:21	INFO:	Connection to notification SQL server 'localhost' and database 'Chapter4_ExternalActivationMultipleActivatedApplications' is established.
+28.09.2006 19:08:21	INFO:	Notification service 'ExternalActivatorService' is started.
+28.09.2006 19:08:21	DEBUG:	Processing received message...
+28.09.2006 19:08:21	DEBUG:	Trying to start application associated with [WINXP_KLAUS].[Chapter4_ExternalActivationMultipleActivatedApplications].[dbo].[TargetQueue1] because a notification message was received.
+28.09.2006 19:08:21	DEBUG:	Activating process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\03 MultipleExternalProcessingApplications\ProcessingApplication1\bin\Debug\ProcessingApplication1.exe' associated with [WINXP_KLAUS].[Chapter4_ExternalActivationMultipleActivatedApplications].[dbo].[TargetQueue1] number of running instances is 0 and Max is 5.
+28.09.2006 19:08:21	DEBUG:	Using standard Out, In and Error for process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\03 MultipleExternalProcessingApplications\ProcessingApplication1\bin\Debug\ProcessingApplication1.exe'.
+28.09.2006 19:08:21	DEBUG:	Process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\03 MultipleExternalProcessingApplications\ProcessingApplication1\bin\Debug\ProcessingApplication1.exe' started with pid: 2432
+28.09.2006 19:08:21	DEBUG:	Received message is processed.
+28.09.2006 19:08:32	DEBUG:	Process with pid: 2432 died.
+28.09.2006 19:08:50	DEBUG:	Check for monitored applications that need to start processes.
+28.09.2006 19:08:50	DEBUG:	Starting up any applications if number of instances is below minimum
+28.09.2006 19:08:51	DEBUG:	Processing received message...
+28.09.2006 19:08:51	DEBUG:	Trying to start application associated with [WINXP_KLAUS].[Chapter4_ExternalActivationMultipleActivatedApplications].[dbo].[TargetQueue1] because a notification message was received.
+28.09.2006 19:08:51	DEBUG:	Activating process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\03 MultipleExternalProcessingApplications\ProcessingApplication1\bin\Debug\ProcessingApplication1.exe' associated with [WINXP_KLAUS].[Chapter4_ExternalActivationMultipleActivatedApplications].[dbo].[TargetQueue1] number of running instances is 0 and Max is 5.
+28.09.2006 19:08:51	DEBUG:	Using standard Out, In and Error for process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\03 MultipleExternalProcessingApplications\ProcessingApplication1\bin\Debug\ProcessingApplication1.exe'.
+28.09.2006 19:08:51	DEBUG:	Process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\03 MultipleExternalProcessingApplications\ProcessingApplication1\bin\Debug\ProcessingApplication1.exe' started with pid: 6044
+28.09.2006 19:08:51	DEBUG:	Received message is processed.
+28.09.2006 19:09:01	DEBUG:	Process with pid: 6044 died.
+28.09.2006 19:09:17	DEBUG:	Processing received message...
+28.09.2006 19:09:17	DEBUG:	Trying to start application associated with [WINXP_KLAUS].[Chapter4_ExternalActivationMultipleActivatedApplications].[dbo].[TargetQueue1] because a notification message was received.
+28.09.2006 19:09:17	DEBUG:	Activating process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\03 MultipleExternalProcessingApplications\ProcessingApplication1\bin\Debug\ProcessingApplication1.exe' associated with [WINXP_KLAUS].[Chapter4_ExternalActivationMultipleActivatedApplications].[dbo].[TargetQueue1] number of running instances is 0 and Max is 5.
+28.09.2006 19:09:17	DEBUG:	Using standard Out, In and Error for process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\03 MultipleExternalProcessingApplications\ProcessingApplication1\bin\Debug\ProcessingApplication1.exe'.
+28.09.2006 19:09:17	DEBUG:	Process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\03 MultipleExternalProcessingApplications\ProcessingApplication1\bin\Debug\ProcessingApplication1.exe' started with pid: 4508
+28.09.2006 19:09:17	DEBUG:	Received message is processed.
+28.09.2006 19:09:20	DEBUG:	Check for monitored applications that need to start processes.
+28.09.2006 19:09:20	DEBUG:	Starting up any applications if number of instances is below minimum
+28.09.2006 19:09:29	DEBUG:	Process with pid: 4508 died.
+28.09.2006 19:09:48	DEBUG:	Processing received message...
+28.09.2006 19:09:48	DEBUG:	Trying to start application associated with [WINXP_KLAUS].[Chapter4_ExternalActivationMultipleActivatedApplications].[dbo].[TargetQueue2] because a notification message was received.
+28.09.2006 19:09:48	DEBUG:	Activating process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\03 MultipleExternalProcessingApplications\ProcessingApplication2\bin\Debug\ProcessingApplication2.exe' associated with [WINXP_KLAUS].[Chapter4_ExternalActivationMultipleActivatedApplications].[dbo].[TargetQueue2] number of running instances is 0 and Max is 5.
+28.09.2006 19:09:48	DEBUG:	Using standard Out, In and Error for process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\03 MultipleExternalProcessingApplications\ProcessingApplication2\bin\Debug\ProcessingApplication2.exe'.
+28.09.2006 19:09:48	DEBUG:	Process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\03 MultipleExternalProcessingApplications\ProcessingApplication2\bin\Debug\ProcessingApplication2.exe' started with pid: 3080
+28.09.2006 19:09:48	DEBUG:	Received message is processed.
+28.09.2006 19:09:50	DEBUG:	Check for monitored applications that need to start processes.
+28.09.2006 19:09:50	DEBUG:	Starting up any applications if number of instances is below minimum
+28.09.2006 19:09:59	DEBUG:	Process with pid: 3080 died.
+28.09.2006 19:10:20	DEBUG:	Check for monitored applications that need to start processes.
+28.09.2006 19:10:20	DEBUG:	Starting up any applications if number of instances is below minimum
+28.09.2006 19:10:50	DEBUG:	Check for monitored applications that need to start processes.
+28.09.2006 19:10:50	DEBUG:	Starting up any applications if number of instances is below minimum
+28.09.2006 19:11:20	DEBUG:	Check for monitored applications that need to start processes.
+28.09.2006 19:11:20	DEBUG:	Starting up any applications if number of instances is below minimum
+28.09.2006 19:11:50	DEBUG:	Check for monitored applications that need to start processes.
+28.09.2006 19:11:50	DEBUG:	Starting up any applications if number of instances is below minimum
+28.09.2006 19:12:20	DEBUG:	Check for monitored applications that need to start processes.
+28.09.2006 19:12:20	DEBUG:	Starting up any applications if number of instances is below minimum
+28.09.2006 19:12:50	DEBUG:	Check for monitored applications that need to start processes.
+28.09.2006 19:12:50	DEBUG:	Starting up any applications if number of instances is below minimum
+28.09.2006 19:13:20	DEBUG:	Check for monitored applications that need to start processes.
+28.09.2006 19:13:20	DEBUG:	Starting up any applications if number of instances is below minimum
+28.09.2006 19:13:50	DEBUG:	Check for monitored applications that need to start processes.
+28.09.2006 19:13:50	DEBUG:	Starting up any applications if number of instances is below minimum
+28.09.2006 19:14:20	DEBUG:	Check for monitored applications that need to start processes.
+28.09.2006 19:14:20	DEBUG:	Starting up any applications if number of instances is below minimum
+28.09.2006 19:14:50	DEBUG:	Check for monitored applications that need to start processes.
+28.09.2006 19:14:50	DEBUG:	Starting up any applications if number of instances is below minimum
+28.09.2006 19:15:20	DEBUG:	Check for monitored applications that need to start processes.
+28.09.2006 19:15:20	DEBUG:	Starting up any applications if number of instances is below minimum
+28.09.2006 19:15:50	DEBUG:	Check for monitored applications that need to start processes.
+28.09.2006 19:15:50	DEBUG:	Starting up any applications if number of instances is below minimum
+28.09.2006 19:16:20	DEBUG:	Check for monitored applications that need to start processes.
+28.09.2006 19:16:20	DEBUG:	Starting up any applications if number of instances is below minimum
+28.09.2006 19:16:50	DEBUG:	Check for monitored applications that need to start processes.
+28.09.2006 19:16:50	DEBUG:	Starting up any applications if number of instances is below minimum
+28.09.2006 19:17:20	DEBUG:	Check for monitored applications that need to start processes.
+28.09.2006 19:17:20	DEBUG:	Starting up any applications if number of instances is below minimum
+28.09.2006 19:17:50	DEBUG:	Check for monitored applications that need to start processes.
+28.09.2006 19:17:50	DEBUG:	Starting up any applications if number of instances is below minimum
+28.09.2006 19:18:20	DEBUG:	Check for monitored applications that need to start processes.
+28.09.2006 19:18:20	DEBUG:	Starting up any applications if number of instances is below minimum
+28.09.2006 19:18:50	DEBUG:	Check for monitored applications that need to start processes.
+28.09.2006 19:18:50	DEBUG:	Starting up any applications if number of instances is below minimum
+28.09.2006 19:19:20	DEBUG:	Check for monitored applications that need to start processes.
+28.09.2006 19:19:20	DEBUG:	Starting up any applications if number of instances is below minimum
+28.09.2006 19:19:50	DEBUG:	Check for monitored applications that need to start processes.
+28.09.2006 19:19:50	DEBUG:	Starting up any applications if number of instances is below minimum
+28.09.2006 19:20:20	DEBUG:	Check for monitored applications that need to start processes.
+28.09.2006 19:20:20	DEBUG:	Starting up any applications if number of instances is below minimum
+28.09.2006 19:20:50	DEBUG:	Check for monitored applications that need to start processes.
+28.09.2006 19:20:50	DEBUG:	Starting up any applications if number of instances is below minimum
+28.09.2006 19:21:20	DEBUG:	Check for monitored applications that need to start processes.
+28.09.2006 19:21:20	DEBUG:	Starting up any applications if number of instances is below minimum
+28.09.2006 19:21:50	DEBUG:	Check for monitored applications that need to start processes.
+28.09.2006 19:21:50	DEBUG:	Starting up any applications if number of instances is below minimum
+28.09.2006 19:22:20	DEBUG:	Check for monitored applications that need to start processes.
+28.09.2006 19:22:20	DEBUG:	Starting up any applications if number of instances is below minimum
+28.09.2006 19:22:50	DEBUG:	Check for monitored applications that need to start processes.
+28.09.2006 19:22:50	DEBUG:	Starting up any applications if number of instances is below minimum
+28.09.2006 19:23:20	DEBUG:	Check for monitored applications that need to start processes.
+28.09.2006 19:23:20	DEBUG:	Starting up any applications if number of instances is below minimum
+28.09.2006 19:23:50	DEBUG:	Check for monitored applications that need to start processes.
+28.09.2006 19:23:50	DEBUG:	Starting up any applications if number of instances is below minimum
+28.09.2006 19:24:20	DEBUG:	Check for monitored applications that need to start processes.
+28.09.2006 19:24:20	DEBUG:	Starting up any applications if number of instances is below minimum
+28.09.2006 19:24:50	DEBUG:	Check for monitored applications that need to start processes.
+28.09.2006 19:24:50	DEBUG:	Starting up any applications if number of instances is below minimum
+28.09.2006 19:25:20	DEBUG:	Check for monitored applications that need to start processes.
+28.09.2006 19:25:20	DEBUG:	Starting up any applications if number of instances is below minimum
+28.09.2006 19:25:50	DEBUG:	Check for monitored applications that need to start processes.
+28.09.2006 19:25:50	DEBUG:	Starting up any applications if number of instances is below minimum
+28.09.2006 19:26:20	DEBUG:	Check for monitored applications that need to start processes.
+28.09.2006 19:26:20	DEBUG:	Starting up any applications if number of instances is below minimum
+28.09.2006 19:26:50	DEBUG:	Check for monitored applications that need to start processes.
+28.09.2006 19:26:50	DEBUG:	Starting up any applications if number of instances is below minimum
+28.09.2006 19:27:20	DEBUG:	Check for monitored applications that need to start processes.
+28.09.2006 19:27:20	DEBUG:	Starting up any applications if number of instances is below minimum
+28.09.2006 19:27:50	DEBUG:	Check for monitored applications that need to start processes.
+28.09.2006 19:27:50	DEBUG:	Starting up any applications if number of instances is below minimum
+28.09.2006 19:28:20	DEBUG:	Check for monitored applications that need to start processes.
+28.09.2006 19:28:20	DEBUG:	Starting up any applications if number of instances is below minimum
+28.09.2006 19:28:50	DEBUG:	Check for monitored applications that need to start processes.
+28.09.2006 19:28:50	DEBUG:	Starting up any applications if number of instances is below minimum
+28.09.2006 19:29:20	DEBUG:	Check for monitored applications that need to start processes.
+28.09.2006 19:29:20	DEBUG:	Starting up any applications if number of instances is below minimum
+28.09.2006 19:29:50	DEBUG:	Check for monitored applications that need to start processes.
+28.09.2006 19:29:50	DEBUG:	Starting up any applications if number of instances is below minimum
+28.09.2006 19:30:20	DEBUG:	Check for monitored applications that need to start processes.
+28.09.2006 19:30:20	DEBUG:	Starting up any applications if number of instances is below minimum
+28.09.2006 19:30:50	DEBUG:	Check for monitored applications that need to start processes.
+28.09.2006 19:30:50	DEBUG:	Starting up any applications if number of instances is below minimum
+28.09.2006 19:31:20	DEBUG:	Check for monitored applications that need to start processes.
+28.09.2006 19:31:20	DEBUG:	Starting up any applications if number of instances is below minimum
+28.09.2006 19:31:50	DEBUG:	Check for monitored applications that need to start processes.
+28.09.2006 19:31:50	DEBUG:	Starting up any applications if number of instances is below minimum
+28.09.2006 19:32:20	DEBUG:	Check for monitored applications that need to start processes.
+28.09.2006 19:32:20	DEBUG:	Starting up any applications if number of instances is below minimum
+28.09.2006 19:32:50	DEBUG:	Check for monitored applications that need to start processes.
+28.09.2006 19:32:50	DEBUG:	Starting up any applications if number of instances is below minimum
+28.09.2006 19:33:20	DEBUG:	Check for monitored applications that need to start processes.
+28.09.2006 19:33:20	DEBUG:	Starting up any applications if number of instances is below minimum
+28.09.2006 19:33:50	DEBUG:	Check for monitored applications that need to start processes.
+28.09.2006 19:33:50	DEBUG:	Starting up any applications if number of instances is below minimum
+28.09.2006 19:34:20	DEBUG:	Check for monitored applications that need to start processes.
+28.09.2006 19:34:20	DEBUG:	Starting up any applications if number of instances is below minimum
+28.09.2006 19:34:50	DEBUG:	Check for monitored applications that need to start processes.
+28.09.2006 19:34:50	DEBUG:	Starting up any applications if number of instances is below minimum
+28.09.2006 19:35:20	DEBUG:	Check for monitored applications that need to start processes.
+28.09.2006 19:35:20	DEBUG:	Starting up any applications if number of instances is below minimum
+28.09.2006 19:35:50	DEBUG:	Check for monitored applications that need to start processes.
+28.09.2006 19:35:50	DEBUG:	Starting up any applications if number of instances is below minimum
+28.09.2006 19:36:20	DEBUG:	Check for monitored applications that need to start processes.
+28.09.2006 19:36:20	DEBUG:	Starting up any applications if number of instances is below minimum
+28.09.2006 19:36:50	DEBUG:	Check for monitored applications that need to start processes.
+28.09.2006 19:36:50	DEBUG:	Starting up any applications if number of instances is below minimum
+28.09.2006 19:37:03	STATUS:	External Activator is shutting down...
+28.09.2006 19:37:03	STATUS:	Shutting down the recovery log manager
+28.09.2006 19:37:03	DEBUG:	Checkpointing the recovery log ...
+28.09.2006 19:37:03	DEBUG:	Checkpointed the recovery log.
+17.12.2006 18:53:02	STATUS:	--- Output logging has started ---
+17.12.2006 18:53:02	STATUS:	External Activator is initializing...
+17.12.2006 18:53:02	STATUS:	Running recovery using 'D:\Klaus\Chapter 4\Samples\03 MultipleExternalProcessingApplications\ExternalActivator\ExternalActivator.exe.RecoveryLog' ...
+17.12.2006 18:53:02	STATUS:	Recovery completed.
+17.12.2006 18:53:02	STATUS:	Initializing configuration manager...
+17.12.2006 18:53:02	STATUS:	Debug information will be reported in the output log.
+17.12.2006 18:53:02	STATUS:	External Activator initialization completed.
+17.12.2006 18:53:02	DEBUG:	Re-reading the Configuration File because Configuration File changes might have occurred before FileSystemWatcher was registered
+17.12.2006 18:53:02	DEBUG:	Starting up any applications if number of instances is below minimum
+17.12.2006 18:53:02	DEBUG:	Starting up the Notification service...
+17.12.2006 18:53:02	INFO:	Connection to notification SQL server 'localhost' and database 'Chapter4_ExternalActivationMultipleActivatedApplications' is established.
+17.12.2006 18:53:02	INFO:	Notification service 'ExternalActivatorService' is started.
+17.12.2006 18:53:04	STATUS:	Monitored applications status
+17.12.2006 18:53:04	STATUS DETAILS:	    Application associated with [WINDOWSVISTA].[Chapter4_ExternalActivationMultipleActivatedApplications].[dbo].[TargetQueue1] monitors 0 running processes. 0 processes were started successfully.
+17.12.2006 18:53:04	STATUS DETAILS:	    Application associated with [WINDOWSVISTA].[Chapter4_ExternalActivationMultipleActivatedApplications].[dbo].[TargetQueue2] monitors 0 running processes. 0 processes were started successfully.
+17.12.2006 18:53:08	STATUS:	Notification service 'ExternalActivatorService' on SQL Server 'localhost' and Database 'Chapter4_ExternalActivationMultipleActivatedApplications' is connected to the database and working.
+17.12.2006 18:53:19	DEBUG:	Processing received message...
+17.12.2006 18:53:19	DEBUG:	Trying to start application associated with [WINDOWSVISTA].[Chapter4_ExternalActivationMultipleActivatedApplications].[dbo].[TargetQueue2] because a notification message was received.
+17.12.2006 18:53:19	DEBUG:	Activating process 'D:\Klaus\Chapter 4\Samples\03 MultipleExternalProcessingApplications\ProcessingApplication2\bin\Debug\ProcessingApplication2.exe' associated with [WINDOWSVISTA].[Chapter4_ExternalActivationMultipleActivatedApplications].[dbo].[TargetQueue2] number of running instances is 0 and Max is 5.
+17.12.2006 18:53:19	DEBUG:	Using standard Out, In and Error for process 'D:\Klaus\Chapter 4\Samples\03 MultipleExternalProcessingApplications\ProcessingApplication2\bin\Debug\ProcessingApplication2.exe'.
+17.12.2006 18:53:19	DEBUG:	Process 'D:\Klaus\Chapter 4\Samples\03 MultipleExternalProcessingApplications\ProcessingApplication2\bin\Debug\ProcessingApplication2.exe' started with pid: 2344
+17.12.2006 18:53:19	DEBUG:	Received message is processed.
+17.12.2006 18:53:31	DEBUG:	Process with pid: 2344 died.
+17.12.2006 18:53:32	DEBUG:	Check for monitored applications that need to start processes.
+17.12.2006 18:53:32	DEBUG:	Starting up any applications if number of instances is below minimum
+17.12.2006 18:54:02	DEBUG:	Check for monitored applications that need to start processes.
+17.12.2006 18:54:02	DEBUG:	Starting up any applications if number of instances is below minimum
+17.12.2006 18:54:17	STATUS:	External Activator is shutting down...
+17.12.2006 18:54:17	STATUS:	Shutting down the recovery log manager
+17.12.2006 18:54:17	DEBUG:	Checkpointing the recovery log ...
+17.12.2006 18:54:17	DEBUG:	Checkpointed the recovery log.
+17.12.2006 18:54:30	STATUS:	--- Output logging has started ---
+17.12.2006 18:54:30	STATUS:	External Activator is initializing...
+17.12.2006 18:54:30	STATUS:	Running recovery using 'D:\Klaus\Chapter 4\Samples\03 MultipleExternalProcessingApplications\ExternalActivator\ExternalActivator.exe.RecoveryLog' ...
+17.12.2006 18:54:30	STATUS:	Recovery completed.
+17.12.2006 18:54:30	STATUS:	Initializing configuration manager...
+17.12.2006 18:54:30	STATUS:	Debug information will be reported in the output log.
+17.12.2006 18:54:30	STATUS:	External Activator initialization completed.
+17.12.2006 18:54:30	DEBUG:	Re-reading the Configuration File because Configuration File changes might have occurred before FileSystemWatcher was registered
+17.12.2006 18:54:30	DEBUG:	Starting up any applications if number of instances is below minimum
+17.12.2006 18:54:30	DEBUG:	Starting up the Notification service...
+17.12.2006 18:54:31	INFO:	Connection to notification SQL server 'localhost' and database 'Chapter4_ExternalActivationMultipleActivatedApplications' is established.
+17.12.2006 18:54:31	INFO:	Notification service 'ExternalActivatorService' is started.
+17.12.2006 18:54:31	DEBUG:	Processing received message...
+17.12.2006 18:54:31	DEBUG:	Trying to start application associated with [WINDOWSVISTA].[Chapter4_ExternalActivationMultipleActivatedApplications].[dbo].[TargetQueue1] because a notification message was received.
+17.12.2006 18:54:31	DEBUG:	Activating process 'D:\Klaus\Chapter 4\Samples\03 MultipleExternalProcessingApplications\ProcessingApplication1\bin\Debug\ProcessingApplication1.exe' associated with [WINDOWSVISTA].[Chapter4_ExternalActivationMultipleActivatedApplications].[dbo].[TargetQueue1] number of running instances is 0 and Max is 5.
+17.12.2006 18:54:31	DEBUG:	Using standard Out, In and Error for process 'D:\Klaus\Chapter 4\Samples\03 MultipleExternalProcessingApplications\ProcessingApplication1\bin\Debug\ProcessingApplication1.exe'.
+17.12.2006 18:54:31	DEBUG:	Process 'D:\Klaus\Chapter 4\Samples\03 MultipleExternalProcessingApplications\ProcessingApplication1\bin\Debug\ProcessingApplication1.exe' started with pid: 5380
+17.12.2006 18:54:31	DEBUG:	Received message is processed.
+17.12.2006 18:54:31	DEBUG:	Processing received message...
+17.12.2006 18:54:31	DEBUG:	Trying to start application associated with [WINDOWSVISTA].[Chapter4_ExternalActivationMultipleActivatedApplications].[dbo].[TargetQueue2] because a notification message was received.
+17.12.2006 18:54:31	DEBUG:	Activating process 'D:\Klaus\Chapter 4\Samples\03 MultipleExternalProcessingApplications\ProcessingApplication2\bin\Debug\ProcessingApplication2.exe' associated with [WINDOWSVISTA].[Chapter4_ExternalActivationMultipleActivatedApplications].[dbo].[TargetQueue2] number of running instances is 0 and Max is 5.
+17.12.2006 18:54:31	DEBUG:	Using standard Out, In and Error for process 'D:\Klaus\Chapter 4\Samples\03 MultipleExternalProcessingApplications\ProcessingApplication2\bin\Debug\ProcessingApplication2.exe'.
+17.12.2006 18:54:31	DEBUG:	Process 'D:\Klaus\Chapter 4\Samples\03 MultipleExternalProcessingApplications\ProcessingApplication2\bin\Debug\ProcessingApplication2.exe' started with pid: 4720
+17.12.2006 18:54:31	DEBUG:	Received message is processed.
+17.12.2006 18:54:43	DEBUG:	Process with pid: 4720 died.
+17.12.2006 18:54:43	DEBUG:	Process with pid: 5380 died.
+17.12.2006 18:55:00	STATUS:	External Activator is shutting down...
+17.12.2006 18:55:00	STATUS:	Shutting down the recovery log manager
+17.12.2006 18:55:00	DEBUG:	Checkpointing the recovery log ...
+17.12.2006 18:55:00	DEBUG:	Checkpointed the recovery log.
+17.12.2006 18:55:14	STATUS:	--- Output logging has started ---
+17.12.2006 18:55:14	STATUS:	External Activator is initializing...
+17.12.2006 18:55:14	STATUS:	Running recovery using 'D:\Klaus\Chapter 4\Samples\03 MultipleExternalProcessingApplications\ExternalActivator\ExternalActivator.exe.RecoveryLog' ...
+17.12.2006 18:55:14	STATUS:	Recovery completed.
+17.12.2006 18:55:14	STATUS:	Initializing configuration manager...
+17.12.2006 18:55:15	STATUS:	Debug information will be reported in the output log.
+17.12.2006 18:55:15	STATUS:	External Activator initialization completed.
+17.12.2006 18:55:15	DEBUG:	Re-reading the Configuration File because Configuration File changes might have occurred before FileSystemWatcher was registered
+17.12.2006 18:55:15	DEBUG:	Starting up any applications if number of instances is below minimum
+17.12.2006 18:55:15	DEBUG:	Starting up the Notification service...
+17.12.2006 18:55:15	INFO:	Connection to notification SQL server 'localhost' and database 'Chapter4_ExternalActivationMultipleActivatedApplications' is established.
+17.12.2006 18:55:15	INFO:	Notification service 'ExternalActivatorService' is started.
+17.12.2006 18:55:15	DEBUG:	Processing received message...
+17.12.2006 18:55:15	DEBUG:	Trying to start application associated with [WINDOWSVISTA].[Chapter4_ExternalActivationMultipleActivatedApplications].[dbo].[TargetQueue1] because a notification message was received.
+17.12.2006 18:55:15	DEBUG:	Activating process 'D:\Klaus\Chapter 4\Samples\03 MultipleExternalProcessingApplications\ProcessingApplication1\bin\Debug\ProcessingApplication1.exe' associated with [WINDOWSVISTA].[Chapter4_ExternalActivationMultipleActivatedApplications].[dbo].[TargetQueue1] number of running instances is 0 and Max is 5.
+17.12.2006 18:55:15	DEBUG:	Using standard Out, In and Error for process 'D:\Klaus\Chapter 4\Samples\03 MultipleExternalProcessingApplications\ProcessingApplication1\bin\Debug\ProcessingApplication1.exe'.
+17.12.2006 18:55:15	DEBUG:	Process 'D:\Klaus\Chapter 4\Samples\03 MultipleExternalProcessingApplications\ProcessingApplication1\bin\Debug\ProcessingApplication1.exe' started with pid: 2140
+17.12.2006 18:55:15	DEBUG:	Received message is processed.
+17.12.2006 18:55:15	DEBUG:	Processing received message...
+17.12.2006 18:55:15	DEBUG:	Trying to start application associated with [WINDOWSVISTA].[Chapter4_ExternalActivationMultipleActivatedApplications].[dbo].[TargetQueue2] because a notification message was received.
+17.12.2006 18:55:15	DEBUG:	Activating process 'D:\Klaus\Chapter 4\Samples\03 MultipleExternalProcessingApplications\ProcessingApplication2\bin\Debug\ProcessingApplication2.exe' associated with [WINDOWSVISTA].[Chapter4_ExternalActivationMultipleActivatedApplications].[dbo].[TargetQueue2] number of running instances is 0 and Max is 5.
+17.12.2006 18:55:15	DEBUG:	Using standard Out, In and Error for process 'D:\Klaus\Chapter 4\Samples\03 MultipleExternalProcessingApplications\ProcessingApplication2\bin\Debug\ProcessingApplication2.exe'.
+17.12.2006 18:55:15	DEBUG:	Process 'D:\Klaus\Chapter 4\Samples\03 MultipleExternalProcessingApplications\ProcessingApplication2\bin\Debug\ProcessingApplication2.exe' started with pid: 724
+17.12.2006 18:55:15	DEBUG:	Received message is processed.
+17.12.2006 18:55:27	DEBUG:	Process with pid: 724 died.
+17.12.2006 18:55:27	DEBUG:	Process with pid: 2140 died.
+17.12.2006 18:55:44	DEBUG:	Check for monitored applications that need to start processes.
+17.12.2006 18:55:44	DEBUG:	Starting up any applications if number of instances is below minimum
+17.12.2006 18:56:14	DEBUG:	Check for monitored applications that need to start processes.
+17.12.2006 18:56:14	DEBUG:	Starting up any applications if number of instances is below minimum
+17.12.2006 18:56:44	DEBUG:	Check for monitored applications that need to start processes.
+17.12.2006 18:56:44	DEBUG:	Starting up any applications if number of instances is below minimum
+17.12.2006 18:57:14	DEBUG:	Check for monitored applications that need to start processes.
+17.12.2006 18:57:14	DEBUG:	Starting up any applications if number of instances is below minimum
+17.12.2006 18:57:44	DEBUG:	Check for monitored applications that need to start processes.
+17.12.2006 18:57:44	DEBUG:	Starting up any applications if number of instances is below minimum
+17.12.2006 18:58:14	DEBUG:	Check for monitored applications that need to start processes.
+17.12.2006 18:58:14	DEBUG:	Starting up any applications if number of instances is below minimum
+17.12.2006 18:58:36	STATUS:	Monitored applications status
+17.12.2006 18:58:36	STATUS DETAILS:	    Application associated with [WINDOWSVISTA].[Chapter4_ExternalActivationMultipleActivatedApplications].[dbo].[TargetQueue1] monitors 0 running processes. 1 processes were started successfully, last one at 17.12.2006 18:55:15.
+17.12.2006 18:58:36	STATUS DETAILS:	    Application associated with [WINDOWSVISTA].[Chapter4_ExternalActivationMultipleActivatedApplications].[dbo].[TargetQueue2] monitors 0 running processes. 1 processes were started successfully, last one at 17.12.2006 18:55:15.
+17.12.2006 18:58:44	DEBUG:	Check for monitored applications that need to start processes.
+17.12.2006 18:58:44	DEBUG:	Starting up any applications if number of instances is below minimum
+17.12.2006 18:59:14	DEBUG:	Check for monitored applications that need to start processes.
+17.12.2006 18:59:14	DEBUG:	Starting up any applications if number of instances is below minimum
+17.12.2006 18:59:17	STATUS:	Configuration status for notification service 'ExternalActivatorService' on SQL Server 'localhost' and Database 'Chapter4_ExternalActivationMultipleActivatedApplications'.
+17.12.2006 18:59:17	STATUS DETAILS:	    Enabled configuration associated with [WINDOWSVISTA].[Chapter4_ExternalActivationMultipleActivatedApplications].[dbo].[TargetQueue1] and application <D:\Klaus\Chapter 4\Samples\03 MultipleExternalProcessingApplications\ProcessingApplication1\bin\Debug\ProcessingApplication1.exe>	Min=0 Max=5 and requires console.
+17.12.2006 18:59:17	STATUS DETAILS:	    Enabled configuration associated with [WINDOWSVISTA].[Chapter4_ExternalActivationMultipleActivatedApplications].[dbo].[TargetQueue2] and application <D:\Klaus\Chapter 4\Samples\03 MultipleExternalProcessingApplications\ProcessingApplication2\bin\Debug\ProcessingApplication2.exe>	Min=0 Max=5 and requires console.
+17.12.2006 18:59:44	DEBUG:	Check for monitored applications that need to start processes.
+17.12.2006 18:59:44	DEBUG:	Starting up any applications if number of instances is below minimum
+17.12.2006 19:00:03	STATUS:	Notification service 'ExternalActivatorService' on SQL Server 'localhost' and Database 'Chapter4_ExternalActivationMultipleActivatedApplications' is connected to the database and working.
+17.12.2006 19:00:14	DEBUG:	Check for monitored applications that need to start processes.
+17.12.2006 19:00:14	DEBUG:	Starting up any applications if number of instances is below minimum
+17.12.2006 19:00:44	DEBUG:	Check for monitored applications that need to start processes.
+17.12.2006 19:00:44	DEBUG:	Starting up any applications if number of instances is below minimum
+17.12.2006 19:01:14	DEBUG:	Check for monitored applications that need to start processes.
+17.12.2006 19:01:14	DEBUG:	Starting up any applications if number of instances is below minimum
+17.12.2006 19:01:36	STATUS:	External Activator is shutting down...
+17.12.2006 19:01:36	STATUS:	Shutting down the recovery log manager
+17.12.2006 19:01:36	DEBUG:	Checkpointing the recovery log ...
+17.12.2006 19:01:36	DEBUG:	Checkpointed the recovery log.
+04.04.2008 09:49:58	STATUS:	--- Output logging has started ---
+04.04.2008 09:49:58	STATUS:	External Activator is initializing...
+04.04.2008 09:49:58	STATUS:	Running recovery using 'J:\Pro SQL 2008 Service Broker\Chapter 4\Samples\03 MultipleExternalProcessingApplications\ExternalActivator\ExternalActivator.exe.RecoveryLog' ...
+04.04.2008 09:49:58	STATUS:	Recovery completed.
+04.04.2008 09:49:58	STATUS:	Initializing configuration manager...
+04.04.2008 09:49:58	STATUS:	Debug information will be reported in the output log.
+04.04.2008 09:49:58	STATUS:	External Activator initialization completed.
+04.04.2008 09:49:58	DEBUG:	Re-reading the Configuration File because Configuration File changes might have occurred before FileSystemWatcher was registered
+04.04.2008 09:49:58	DEBUG:	Starting up any applications if number of instances is below minimum
+04.04.2008 09:49:58	DEBUG:	Starting up the Notification service...
+04.04.2008 09:49:59	INFO:	Connection to notification SQL server 'localhost\sql2008feb' and database 'Chapter4_ExternalActivationMultipleActivatedApplications' is established.
+04.04.2008 09:49:59	INFO:	Notification service 'ExternalActivatorService' is started.
+04.04.2008 09:49:59	DEBUG:	Processing received message...
+04.04.2008 09:49:59	DEBUG:	Trying to start application associated with [ANECON-HP42\SQL2008FEB].[Chapter4_ExternalActivationMultipleActivatedApplications].[dbo].[TargetQueue2] because a notification message was received.
+04.04.2008 09:49:59	DEBUG:	Ignoring notification message because there is no application associated with it.
+04.04.2008 09:49:59	DEBUG:	Received message is processed.
+04.04.2008 09:50:13	STATUS:	Monitored applications status
+04.04.2008 09:50:13	STATUS DETAILS:	    Application associated with [ANECON-HP42].[Chapter4_ExternalActivationMultipleActivatedApplications].[dbo].[TargetQueue1] monitors 0 running processes. 0 processes were started successfully.
+04.04.2008 09:50:13	STATUS DETAILS:	    Application associated with [ANECON-HP42].[Chapter4_ExternalActivationMultipleActivatedApplications].[dbo].[TargetQueue2] monitors 0 running processes. 0 processes were started successfully.
+04.04.2008 09:50:36	STATUS:	--- Output logging has started ---
+04.04.2008 09:50:36	STATUS:	External Activator is initializing...
+04.04.2008 09:50:36	STATUS:	Running recovery using 'J:\Pro SQL 2008 Service Broker\Chapter 4\Samples\03 MultipleExternalProcessingApplications\ExternalActivator\ExternalActivator.exe.RecoveryLog' ...
+04.04.2008 09:50:36	STATUS:	Recovery completed.
+04.04.2008 09:50:36	STATUS:	Initializing configuration manager...
+04.04.2008 09:50:36	STATUS:	Debug information will be reported in the output log.
+04.04.2008 09:50:36	STATUS:	External Activator initialization completed.
+04.04.2008 09:50:36	DEBUG:	Re-reading the Configuration File because Configuration File changes might have occurred before FileSystemWatcher was registered
+04.04.2008 09:50:36	DEBUG:	Starting up any applications if number of instances is below minimum
+04.04.2008 09:50:36	DEBUG:	Starting up the Notification service...
+04.04.2008 09:50:36	INFO:	Connection to notification SQL server 'localhost\sql2008feb' and database 'Chapter4_ExternalActivationMultipleActivatedApplications' is established.
+04.04.2008 09:50:36	INFO:	Notification service 'ExternalActivatorService' is started.
+04.04.2008 09:50:38	STATUS:	Monitored applications status
+04.04.2008 09:50:38	STATUS DETAILS:	    Application associated with [ANECON-HP42].[Chapter4_ExternalActivationMultipleActivatedApplications].[dbo].[TargetQueue1] monitors 0 running processes. 0 processes were started successfully.
+04.04.2008 09:50:38	STATUS DETAILS:	    Application associated with [ANECON-HP42].[Chapter4_ExternalActivationMultipleActivatedApplications].[dbo].[TargetQueue2] monitors 0 running processes. 0 processes were started successfully.
+04.04.2008 09:50:43	DEBUG:	Processing received message...
+04.04.2008 09:50:43	DEBUG:	Trying to start application associated with [ANECON-HP42\SQL2008FEB].[Chapter4_ExternalActivationMultipleActivatedApplications].[dbo].[TargetQueue2] because a notification message was received.
+04.04.2008 09:50:43	DEBUG:	Ignoring notification message because there is no application associated with it.
+04.04.2008 09:50:43	DEBUG:	Received message is processed.
+04.04.2008 09:50:49	STATUS:	Monitored applications status
+04.04.2008 09:50:49	STATUS DETAILS:	    Application associated with [ANECON-HP42].[Chapter4_ExternalActivationMultipleActivatedApplications].[dbo].[TargetQueue1] monitors 0 running processes. 0 processes were started successfully.
+04.04.2008 09:50:49	STATUS DETAILS:	    Application associated with [ANECON-HP42].[Chapter4_ExternalActivationMultipleActivatedApplications].[dbo].[TargetQueue2] monitors 0 running processes. 0 processes were started successfully.
+04.04.2008 09:51:06	DEBUG:	Check for monitored applications that need to start processes.
+04.04.2008 09:51:06	DEBUG:	Starting up any applications if number of instances is below minimum
+04.04.2008 09:51:36	DEBUG:	Check for monitored applications that need to start processes.
+04.04.2008 09:51:36	DEBUG:	Starting up any applications if number of instances is below minimum
+04.04.2008 09:52:06	DEBUG:	Check for monitored applications that need to start processes.
+04.04.2008 09:52:06	DEBUG:	Starting up any applications if number of instances is below minimum
+04.04.2008 09:52:49	STATUS:	--- Output logging has started ---
+04.04.2008 09:52:49	STATUS:	External Activator is initializing...
+04.04.2008 09:52:49	STATUS:	Running recovery using 'J:\Pro SQL 2008 Service Broker\Chapter 4\Samples\03 MultipleExternalProcessingApplications\ExternalActivator\ExternalActivator.exe.RecoveryLog' ...
+04.04.2008 09:52:49	STATUS:	Recovery completed.
+04.04.2008 09:52:49	STATUS:	Initializing configuration manager...
+04.04.2008 09:52:49	STATUS:	Debug information will be reported in the output log.
+04.04.2008 09:52:49	STATUS:	External Activator initialization completed.
+04.04.2008 09:52:49	DEBUG:	Re-reading the Configuration File because Configuration File changes might have occurred before FileSystemWatcher was registered
+04.04.2008 09:52:49	DEBUG:	Starting up any applications if number of instances is below minimum
+04.04.2008 09:52:49	DEBUG:	Starting up the Notification service...
+04.04.2008 09:52:49	INFO:	Connection to notification SQL server 'localhost\sql2008feb' and database 'Chapter4_ExternalActivationMultipleActivatedApplications' is established.
+04.04.2008 09:52:49	INFO:	Notification service 'ExternalActivatorService' is started.
+04.04.2008 09:52:53	DEBUG:	Processing received message...
+04.04.2008 09:52:53	DEBUG:	Trying to start application associated with [ANECON-HP42\SQL2008FEB].[Chapter4_ExternalActivationMultipleActivatedApplications].[dbo].[TargetQueue2] because a notification message was received.
+04.04.2008 09:52:53	DEBUG:	Ignoring notification message because there is no application associated with it.
+04.04.2008 09:52:53	DEBUG:	Received message is processed.
+04.04.2008 09:53:06	STATUS:	Monitored applications status
+04.04.2008 09:53:06	STATUS DETAILS:	    Application associated with [ANECON-HP42].[Chapter4_ExternalActivationMultipleActivatedApplications].[dbo].[TargetQueue1] monitors 0 running processes. 0 processes were started successfully.
+04.04.2008 09:53:06	STATUS DETAILS:	    Application associated with [ANECON-HP42].[Chapter4_ExternalActivationMultipleActivatedApplications].[dbo].[TargetQueue2] monitors 0 running processes. 0 processes were started successfully.
+04.04.2008 09:53:19	DEBUG:	Check for monitored applications that need to start processes.
+04.04.2008 09:53:19	DEBUG:	Starting up any applications if number of instances is below minimum
+04.04.2008 09:53:49	DEBUG:	Check for monitored applications that need to start processes.
+04.04.2008 09:53:49	DEBUG:	Starting up any applications if number of instances is below minimum
+04.04.2008 09:54:19	DEBUG:	Check for monitored applications that need to start processes.
+04.04.2008 09:54:19	DEBUG:	Starting up any applications if number of instances is below minimum
+04.04.2008 09:55:28	STATUS:	--- Output logging has started ---
+04.04.2008 09:55:28	STATUS:	External Activator is initializing...
+04.04.2008 09:55:28	STATUS:	Running recovery using 'J:\Pro SQL 2008 Service Broker\Chapter 4\Samples\03 MultipleExternalProcessingApplications\ExternalActivator\ExternalActivator.exe.RecoveryLog' ...
+04.04.2008 09:55:28	STATUS:	Recovery completed.
+04.04.2008 09:55:28	STATUS:	Initializing configuration manager...
+04.04.2008 09:55:29	STATUS:	Debug information will be reported in the output log.
+04.04.2008 09:55:29	STATUS:	External Activator initialization completed.
+04.04.2008 09:55:29	DEBUG:	Re-reading the Configuration File because Configuration File changes might have occurred before FileSystemWatcher was registered
+04.04.2008 09:55:29	DEBUG:	Starting up any applications if number of instances is below minimum
+04.04.2008 09:55:29	DEBUG:	Starting up the Notification service...
+04.04.2008 09:55:29	INFO:	Connection to notification SQL server 'localhost\sql2008feb' and database 'Chapter4_ExternalActivationMultipleActivatedApplications' is established.
+04.04.2008 09:55:29	INFO:	Notification service 'ExternalActivatorService' is started.
+04.04.2008 09:55:29	DEBUG:	Processing received message...
+04.04.2008 09:55:29	DEBUG:	Trying to start application associated with [ANECON-HP42\SQL2008FEB].[Chapter4_ExternalActivationMultipleActivatedApplications].[dbo].[TargetQueue2] because a notification message was received.
+04.04.2008 09:55:29	DEBUG:	Activating process 'J:\Pro SQL 2008 Service Broker\Chapter 4\Samples\03 MultipleExternalProcessingApplications\ProcessingApplication2\bin\Debug\ProcessingApplication2.exe' associated with [ANECON-HP42\SQL2008FEB].[Chapter4_ExternalActivationMultipleActivatedApplications].[dbo].[TargetQueue2] number of running instances is 0 and Max is 5.
+04.04.2008 09:55:29	DEBUG:	Using standard Out, In and Error for process 'J:\Pro SQL 2008 Service Broker\Chapter 4\Samples\03 MultipleExternalProcessingApplications\ProcessingApplication2\bin\Debug\ProcessingApplication2.exe'.
+04.04.2008 09:55:29	DEBUG:	Process 'J:\Pro SQL 2008 Service Broker\Chapter 4\Samples\03 MultipleExternalProcessingApplications\ProcessingApplication2\bin\Debug\ProcessingApplication2.exe' started with pid: 6188
+04.04.2008 09:55:29	DEBUG:	Received message is processed.
+04.04.2008 09:55:33	DEBUG:	Process with pid: 6188 died.
+04.04.2008 09:55:41	DEBUG:	Processing received message...
+04.04.2008 09:55:41	DEBUG:	Trying to start application associated with [ANECON-HP42\SQL2008FEB].[Chapter4_ExternalActivationMultipleActivatedApplications].[dbo].[TargetQueue2] because a notification message was received.
+04.04.2008 09:55:41	DEBUG:	Activating process 'J:\Pro SQL 2008 Service Broker\Chapter 4\Samples\03 MultipleExternalProcessingApplications\ProcessingApplication2\bin\Debug\ProcessingApplication2.exe' associated with [ANECON-HP42\SQL2008FEB].[Chapter4_ExternalActivationMultipleActivatedApplications].[dbo].[TargetQueue2] number of running instances is 0 and Max is 5.
+04.04.2008 09:55:41	DEBUG:	Using standard Out, In and Error for process 'J:\Pro SQL 2008 Service Broker\Chapter 4\Samples\03 MultipleExternalProcessingApplications\ProcessingApplication2\bin\Debug\ProcessingApplication2.exe'.
+04.04.2008 09:55:41	DEBUG:	Process 'J:\Pro SQL 2008 Service Broker\Chapter 4\Samples\03 MultipleExternalProcessingApplications\ProcessingApplication2\bin\Debug\ProcessingApplication2.exe' started with pid: 6584
+04.04.2008 09:55:41	DEBUG:	Received message is processed.
+04.04.2008 09:55:46	DEBUG:	Process with pid: 6584 died.
+04.04.2008 09:55:52	DEBUG:	Processing received message...
+04.04.2008 09:55:52	DEBUG:	Trying to start application associated with [ANECON-HP42\SQL2008FEB].[Chapter4_ExternalActivationMultipleActivatedApplications].[dbo].[TargetQueue1] because a notification message was received.
+04.04.2008 09:55:52	DEBUG:	Activating process 'J:\Pro SQL 2008 Service Broker\Chapter 4\Samples\03 MultipleExternalProcessingApplications\ProcessingApplication1\bin\Debug\ProcessingApplication1.exe' associated with [ANECON-HP42\SQL2008FEB].[Chapter4_ExternalActivationMultipleActivatedApplications].[dbo].[TargetQueue1] number of running instances is 0 and Max is 5.
+04.04.2008 09:55:52	DEBUG:	Using standard Out, In and Error for process 'J:\Pro SQL 2008 Service Broker\Chapter 4\Samples\03 MultipleExternalProcessingApplications\ProcessingApplication1\bin\Debug\ProcessingApplication1.exe'.
+04.04.2008 09:55:52	DEBUG:	Process 'J:\Pro SQL 2008 Service Broker\Chapter 4\Samples\03 MultipleExternalProcessingApplications\ProcessingApplication1\bin\Debug\ProcessingApplication1.exe' started with pid: 1008
+04.04.2008 09:55:52	DEBUG:	Received message is processed.
+04.04.2008 09:55:56	DEBUG:	Process with pid: 1008 died.
+04.04.2008 09:55:58	DEBUG:	Check for monitored applications that need to start processes.
+04.04.2008 09:55:58	DEBUG:	Starting up any applications if number of instances is below minimum
+04.04.2008 09:56:00	DEBUG:	Processing received message...
+04.04.2008 09:56:00	DEBUG:	Trying to start application associated with [ANECON-HP42\SQL2008FEB].[Chapter4_ExternalActivationMultipleActivatedApplications].[dbo].[TargetQueue2] because a notification message was received.
+04.04.2008 09:56:00	DEBUG:	Activating process 'J:\Pro SQL 2008 Service Broker\Chapter 4\Samples\03 MultipleExternalProcessingApplications\ProcessingApplication2\bin\Debug\ProcessingApplication2.exe' associated with [ANECON-HP42\SQL2008FEB].[Chapter4_ExternalActivationMultipleActivatedApplications].[dbo].[TargetQueue2] number of running instances is 0 and Max is 5.
+04.04.2008 09:56:00	DEBUG:	Using standard Out, In and Error for process 'J:\Pro SQL 2008 Service Broker\Chapter 4\Samples\03 MultipleExternalProcessingApplications\ProcessingApplication2\bin\Debug\ProcessingApplication2.exe'.
+04.04.2008 09:56:00	DEBUG:	Process 'J:\Pro SQL 2008 Service Broker\Chapter 4\Samples\03 MultipleExternalProcessingApplications\ProcessingApplication2\bin\Debug\ProcessingApplication2.exe' started with pid: 6812
+04.04.2008 09:56:00	DEBUG:	Received message is processed.
+04.04.2008 09:56:01	DEBUG:	Process with pid: 6812 died.

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="http://ssb.csharp.at/SSB_Book/c10/ReliableWebRequestsSchema" xmlns:tns="http://ssb.csharp.at/SSB_Book/c10/ReliableWebRequestsSchema">
+	<xsd:element name="httpRequest" type="tns:httpRequestType" />
+	<xsd:element name="httpResponse" type="tns:httpResponseType" />
+	<xsd:complexType name="headerType">
+		<xsd:attribute name="name" type="xsd:string" use="required" />
+		<xsd:attribute name="value" type="xsd:string" use="required" />
+	</xsd:complexType>
+	<xsd:complexType name="headersType">
+		<xsd:sequence>
+			<xsd:element name="header" type="tns:headerType" minOccurs="1" maxOccurs="unbounded" />
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name="httpRequestType">
+		<xsd:sequence>
+			<xsd:element name="headers" type="tns:headersType" minOccurs="0" maxOccurs="1" />
+			<xsd:element name="body" type="xsd:base64Binary" minOccurs="0" maxOccurs="1" />
+		</xsd:sequence>
+		<xsd:attribute name="method" type="xsd:string" use="optional" default="GET" />
+		<xsd:attribute name="url" type="xsd:anyURI" use="required" />
+		<xsd:attribute name="protocolVersion" type="xsd:string" use="optional" default="HTTP/1.1" />
+	</xsd:complexType>
+	<xsd:complexType name="httpResponseType">
+		<xsd:sequence>
+			<xsd:element name="headers" type="tns:headersType" minOccurs="0" maxOccurs="1" />
+			<xsd:element name="body" type="xsd:base64Binary" minOccurs="0" maxOccurs="1" />
+		</xsd:sequence>
+		<xsd:attribute name="protocolVersion" type="xsd:string" use="required" />
+		<xsd:attribute name="statusCode" type="xsd:int" use="required" />
+		<xsd:attribute name="statusDescription" type="xsd:string" use="optional" />
+	</xsd:complexType>
+</xsd:schema>

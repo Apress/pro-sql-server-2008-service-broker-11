@@ -1,0 +1,7 @@
+obj\Debug\05_ManagedServiceBroker.exe
+obj\Debug\05_ManagedServiceBroker.pdb
+bin\Debug\05_ManagedServiceBroker.exe
+bin\Debug\05_ManagedServiceBroker.pdb
+bin\Debug\ServiceBrokerInterface.dll
+bin\Debug\ServiceBrokerInterface.pdb
+obj\Debug\ResolveAssemblyReference.cache

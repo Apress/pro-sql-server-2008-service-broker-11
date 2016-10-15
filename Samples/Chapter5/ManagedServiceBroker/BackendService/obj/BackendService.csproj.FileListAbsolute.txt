@@ -1,0 +1,7 @@
+J:\Pro SQL 2008 Service Broker\Chapter 5\Samples\ManagedServiceBroker\BackendService\bin\Debug\BackendService.dll
+J:\Pro SQL 2008 Service Broker\Chapter 5\Samples\ManagedServiceBroker\BackendService\bin\Debug\BackendService.pdb
+J:\Pro SQL 2008 Service Broker\Chapter 5\Samples\ManagedServiceBroker\BackendService\bin\Debug\ServiceBrokerInterface.dll
+J:\Pro SQL 2008 Service Broker\Chapter 5\Samples\ManagedServiceBroker\BackendService\bin\Debug\ServiceBrokerInterface.pdb
+J:\Pro SQL 2008 Service Broker\Chapter 5\Samples\ManagedServiceBroker\BackendService\obj\Debug\ResolveAssemblyReference.cache
+J:\Pro SQL 2008 Service Broker\Chapter 5\Samples\ManagedServiceBroker\BackendService\obj\Debug\BackendService.dll
+J:\Pro SQL 2008 Service Broker\Chapter 5\Samples\ManagedServiceBroker\BackendService\obj\Debug\BackendService.pdb

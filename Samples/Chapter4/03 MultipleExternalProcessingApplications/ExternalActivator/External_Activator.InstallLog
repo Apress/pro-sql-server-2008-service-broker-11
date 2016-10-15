@@ -1,0 +1,43 @@
+﻿
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+Installing service External_Activator...
+Service External_Activator has been successfully installed.
+Creating EventLog source External_Activator in log Application...
+
+The Install phase completed successfully, and the Commit phase is beginning.
+
+The Commit phase completed successfully.
+
+The transacted install has completed.
+
+
+The uninstall is beginning.
+Removing EventLog source External_Activator.
+Service External_Activator is being removed from the system...
+Service External_Activator was successfully removed from the system.
+
+The uninstall has completed.
+
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+Installing service External_Activator...
+Service External_Activator has been successfully installed.
+Creating EventLog source External_Activator in log Application...
+
+The Install phase completed successfully, and the Commit phase is beginning.
+
+The Commit phase completed successfully.
+
+The transacted install has completed.
+
+
+The uninstall is beginning.
+Removing EventLog source External_Activator.
+Service External_Activator is being removed from the system...
+Service External_Activator was successfully removed from the system.
+Attempt to stop service External_Activator.
+
+The uninstall has completed.

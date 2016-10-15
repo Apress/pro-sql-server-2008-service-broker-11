@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema targetNamespace="http://ssb.csharp.at/JobServer/TaskResponse" elementFormDefault="qualified" xmlns="http://tempuri.org/XMLSchema.xsd" xmlns:mstns="http://ssb.csharp.at/JobServer/TaskResponse" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="TaskResponse">
+		<xs:complexType>
+			<xs:attribute name="ID" type="xs:string" />
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

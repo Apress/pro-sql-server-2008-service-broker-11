@@ -1,0 +1,623 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ServiceBrokerInterface</name>
+    </assembly>
+    <members>
+        <member name="T:Microsoft.Samples.SqlServer.ServiceException">
+            <remarks>
+            This class wraps the exceptions thrown in the <c>Run</c> method of the
+            <c>Service</c> class.
+            </remarks>
+        </member>
+        <member name="M:Microsoft.Samples.SqlServer.ServiceException.#ctor(Microsoft.Samples.SqlServer.Conversation,System.Data.SqlClient.SqlConnection,System.Data.SqlClient.SqlTransaction,System.Exception)">
+            <summary>
+            
+            </summary>
+            <param name="currentConversation"></param>
+            <param name="connection"></param>
+            <param name="transaction"></param>
+            <param name="exception"></param>
+        </member>
+        <member name="P:Microsoft.Samples.SqlServer.ServiceException.Connection">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Microsoft.Samples.SqlServer.ServiceException.Transaction">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Microsoft.Samples.SqlServer.ServiceException.CurrentConversation">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Microsoft.Samples.SqlServer.Message">
+            <remarks>
+            The <c>Message</c> class is used both for sending as well as receiving
+            messages from a <c>Service</c>. When used for sending messages, we only use
+            the <c>Type</c> and the <c>Body</c> properties. When a message a received,
+            the object contains all the properties describing the message received.
+            </remarks>
+        </member>
+        <member name="F:Microsoft.Samples.SqlServer.Message.EventNotificationType">
+            <value>
+            System message type for event notification messages.
+            </value>
+        </member>
+        <member name="F:Microsoft.Samples.SqlServer.Message.QueryNotificationType">
+            <value>
+            System message type for query notification messages.
+            </value>
+        </member>
+        <member name="F:Microsoft.Samples.SqlServer.Message.FailedRemoteServiceBindingType">
+            <value>
+            System message type for message indicating failed remote service binding.
+            </value>
+        </member>
+        <member name="F:Microsoft.Samples.SqlServer.Message.FailedRouteType">
+            <value>
+            System message type for message indicating failed route.
+            </value>
+        </member>
+        <member name="F:Microsoft.Samples.SqlServer.Message.MissingRemoteServiceBindingType">
+            <value>
+            System message type for message indicating missing remote service binding.
+            </value>
+        </member>
+        <member name="F:Microsoft.Samples.SqlServer.Message.MissingRouteType">
+            <value>
+            System message type for message indicating missing route.
+            </value>
+        </member>
+        <member name="F:Microsoft.Samples.SqlServer.Message.DialogTimerType">
+            <value>
+            System message type for dialog timer messages.
+            </value>
+        </member>
+        <member name="F:Microsoft.Samples.SqlServer.Message.EndDialogType">
+            <value>
+            System message type for message indicating end of dialog.
+            </value>
+        </member>
+        <member name="F:Microsoft.Samples.SqlServer.Message.ErrorType">
+            <value>
+            System message type for error messages.
+            </value>
+        </member>
+        <member name="F:Microsoft.Samples.SqlServer.Message.DescriptionType">
+            <value>
+            System message type for diagnostic description messages.
+            </value>
+        </member>
+        <member name="F:Microsoft.Samples.SqlServer.Message.QueryType">
+            <value>
+            System message type for diagnostic query messages.
+            </value>
+        </member>
+        <member name="F:Microsoft.Samples.SqlServer.Message.StatusType">
+            <value>
+            System message type for diagnostic status messages.
+            </value>
+        </member>
+        <member name="F:Microsoft.Samples.SqlServer.Message.EchoType">
+            <value>
+            System message type for echo service messages.
+            </value>
+        </member>
+        <member name="M:Microsoft.Samples.SqlServer.Message.#ctor">
+            <summary>
+            Default constructor
+            </summary>
+        </member>
+        <member name="M:Microsoft.Samples.SqlServer.Message.#ctor(System.String,System.IO.Stream)">
+            <summary>
+            Creates a message object with given parameters.
+            </summary>
+            <param name="type">The message type</param>
+            <param name="body">A stream referencing hte body of the message</param>
+        </member>
+        <member name="P:Microsoft.Samples.SqlServer.Message.Body">
+            <value>A stream representing the message body.</value>
+        </member>
+        <member name="P:Microsoft.Samples.SqlServer.Message.Type">
+            <value>The message type.</value>
+        </member>
+        <member name="P:Microsoft.Samples.SqlServer.Message.Conversation">
+            <value>The conversation from which the message was received.</value>
+        </member>
+        <member name="P:Microsoft.Samples.SqlServer.Message.ConversationGroupId">
+            <value>The conversation group of the conversation from which the message was received.</value>
+        </member>
+        <member name="P:Microsoft.Samples.SqlServer.Message.SequenceNumber">
+            <value>The sequence number of the message in the queue.</value>
+        </member>
+        <member name="P:Microsoft.Samples.SqlServer.Message.Validation">
+            <value>The type of validation: 'E' means empty, 'N' means none, 'X' means well-formed XML.</value>
+        </member>
+        <member name="P:Microsoft.Samples.SqlServer.Message.ServiceName">
+            <value>The name of the service to which this message was sent.</value>
+        </member>
+        <member name="P:Microsoft.Samples.SqlServer.Message.ContractName">
+            <value>The contract that the message adhered to.</value>
+        </member>
+        <member name="T:Microsoft.Samples.SqlServer.Conversation">
+            <remarks>
+            The <c>Conversation</c> class represents a service broker conversation between
+            services. The convesation object may be obtained by invoking <c>Service.GetConversation</c>
+            or <c>Service.BeginDialog</c> or by invoking the constructor and attaching it to 
+            a <c>Service</c> object. Messages may be sent or received by calling the <c>Send</c> and
+            <c>Receive</c> methods.
+            </remarks>
+        </member>
+        <member name="M:Microsoft.Samples.SqlServer.Conversation.#ctor(Microsoft.Samples.SqlServer.Service,System.Guid)">
+            <summary>
+            This constructor does not create a new conversation by running the 'BEGIN DIALOG'
+            T-SQL command. Instead it is used for creating conversation objects from conversation handle
+            and associated <c>Service</c> object. To create a new conversation with a remote service
+            use <c>Service.BeginDialog</c>
+            </summary>
+            <param name="service">The service associated with this conversation.</param>
+            <param name="handle">The conversation handle.</param>
+        </member>
+        <member name="M:Microsoft.Samples.SqlServer.Conversation.Send(Microsoft.Samples.SqlServer.Message,System.Data.SqlClient.SqlConnection,System.Data.SqlClient.SqlTransaction)">
+            <summary>
+            Send the <paramref>message</paramref> on this conversation to
+            remote service(s). The message is not actually sent until the transaction is committed
+            <seealso cref="P:Microsoft.Samples.SqlServer.Conversation.Service">Service.Commit</seealso>.
+            </summary>
+            <param name="message">The message to be sent. It should have a message type. 
+            Body is optional.</param>
+            <param name="connection">The connection to use for sending this message.</param>
+            <param name="transaction">The transaction to use for sending this message.</param>
+        </member>
+        <member name="M:Microsoft.Samples.SqlServer.Conversation.Receive">
+            <summary>
+            Receive a message from the fetched batch of messages from the queue.
+            </summary>
+            <returns>The <c>Message</c> object with all properties set.</returns>
+        </member>
+        <member name="M:Microsoft.Samples.SqlServer.Conversation.DrainReader">
+            <summary>
+            Removes all the remaining messages associated with this conversation 
+            from the underlying MessageReader.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Samples.SqlServer.Conversation.MoveToGroup(System.Guid,System.Data.SqlClient.SqlConnection,System.Data.SqlClient.SqlTransaction)">
+            <summary>
+            Move this conversation to a new group by invoking the 'MOVE CONVERSATION' T-SQL
+            command. Changes are not reflected until the transaction commits
+            <seealso cref="P:Microsoft.Samples.SqlServer.Conversation.Service">Service.Commit</seealso>.
+            </summary>
+            <param name="newGroupId">The new conversation group ID</param>
+            <param name="connection">The connection to use for executing this statement.</param>
+            <param name="transaction">The transaction to use for executing this statement.</param>
+        </member>
+        <member name="M:Microsoft.Samples.SqlServer.Conversation.End(System.Data.SqlClient.SqlConnection,System.Data.SqlClient.SqlTransaction)">
+            <summary>
+            End the conversation by invoking the 'END' T-SQL command.
+            Changes are not reflected until the transaction commits
+            <seealso cref="P:Microsoft.Samples.SqlServer.Conversation.Service">Service.Commit</seealso>.
+            <param name="connection">The connection to use for executing this statement.</param>
+            <param name="transaction">The transaction to use for executing this statement.</param>
+            </summary>
+        </member>
+        <member name="M:Microsoft.Samples.SqlServer.Conversation.CleanUp(System.Data.SqlClient.SqlConnection,System.Data.SqlClient.SqlTransaction)">
+            <summary>
+            End the conversation with clean-up (Hard kill). This should not be used in
+            typical applications.
+            Changes are not reflected until the transaction commits
+            <seealso cref="P:Microsoft.Samples.SqlServer.Conversation.Service">Service.Commit</seealso>.
+            <param name="connection">The connection to use for executing this statement.</param>
+            <param name="transaction">The transaction to use for executing this statement.</param>
+            </summary>
+        </member>
+        <member name="M:Microsoft.Samples.SqlServer.Conversation.EndWithError(System.Int32,System.String,System.Data.SqlClient.SqlConnection,System.Data.SqlClient.SqlTransaction)">
+            <summary>
+            End the conversation with an error. This should not be used in
+            typical applications.
+            Changes are not reflected until the transaction commits
+            <seealso cref="P:Microsoft.Samples.SqlServer.Conversation.Service">Service.Commit</seealso>.
+            <param name="errorCode">An integer representing the error code.</param>
+            <param name="errorDescription">A text description of the error.</param>
+            <param name="connection">The connection to use for executing this statement.</param>
+            <param name="transaction">The transaction to use for executing this statement.</param>
+            </summary>
+        </member>
+        <member name="P:Microsoft.Samples.SqlServer.Conversation.Service">
+            <value>The service associated with this conversation.</value>
+        </member>
+        <member name="P:Microsoft.Samples.SqlServer.Conversation.Handle">
+            <value>The conversation handle identifying the conversation.</value>
+        </member>
+        <member name="T:Microsoft.Samples.SqlServer.BrokerMethodAttribute">
+            <summary>
+            This attribute is used for tagging methods of a derived <c>Service</c> class
+            with conditions on when the method should be called by <c>Service.DispatchMessage</c>.
+            The methods of the derived <c>Service</c> class may have multiple BrokerMethodAttributes.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Samples.SqlServer.BrokerMethodAttribute.#ctor(System.String)">
+            <summary>
+            Constructs a <c>BrokerMethodAttribute</c> with no state and contract.
+            </summary>
+            <param name="messageType">The message type</param>
+        </member>
+        <member name="M:Microsoft.Samples.SqlServer.BrokerMethodAttribute.#ctor(System.String,System.String)">
+            <summary>
+            Constructs a <c>BrokerMethodAttribute</c> with no state.
+            </summary>
+            <param name="contract">The contract</param>
+            <param name="messageType">The message type</param>
+        </member>
+        <member name="M:Microsoft.Samples.SqlServer.BrokerMethodAttribute.#ctor(System.Int32,System.String)">
+            <summary>
+            Constructs a <c>BrokerMethodAttribute</c> with no contract.
+            </summary>
+            <param name="messageType">The message type</param>
+            <param name="state">The state</param>
+        </member>
+        <member name="M:Microsoft.Samples.SqlServer.BrokerMethodAttribute.#ctor(System.Int32,System.String,System.String)">
+            <summary>
+            Constructs a <c>BrokerMethodAttribute</c> with given state.
+            </summary>
+            <param name="contract">The contract</param>
+            <param name="messageType">The message type</param>
+            <param name="state">The state</param>
+        </member>
+        <member name="M:Microsoft.Samples.SqlServer.BrokerMethodAttribute.GetHashCode">
+            <summary>
+            The GetHashCode is overriden so that this object can be appropriately hashed.
+            </summary>
+            <returns>An int valued hash code.</returns>
+        </member>
+        <member name="M:Microsoft.Samples.SqlServer.BrokerMethodAttribute.Equals(System.Object)">
+            <summary>
+            The Equals method is overriden for this class.
+            </summary>
+            <param name="obj"></param>
+            <returns></returns>
+        </member>
+        <member name="P:Microsoft.Samples.SqlServer.BrokerMethodAttribute.Contract">
+            <value>The contract the method handles.</value>
+        </member>
+        <member name="P:Microsoft.Samples.SqlServer.BrokerMethodAttribute.MessageType">
+            <value>The type of message that the method handles.</value>
+        </member>
+        <member name="P:Microsoft.Samples.SqlServer.BrokerMethodAttribute.State">
+            <value>If defined, the state that the method handles. (Else -1)</value>
+        </member>
+        <member name="T:Microsoft.Samples.SqlServer.Service">
+            <remarks>
+            This class represents a SQL Service Broker service endpoint.
+            It is bound to an instance of the <c>SqlConnection</c> interface
+            which is of type <c>System.Data.SqlClient.SqlConnection</c>.
+            The <c>Service</c> class contains methods to create 
+            <c>Conversation</c> objects by beginning a dialog or getting one from
+            the queue.
+            </remarks>
+        </member>
+        <member name="F:Microsoft.Samples.SqlServer.Service.EchoContractName">
+            <summary>
+            The system defined contract name for echo.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Samples.SqlServer.Service.m_queueName">
+            <summary>
+            This is the queue name associated with the service. It is 
+            initilized in the constructor of the <c>Service</c> by
+            querying the appropriate database management view.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Samples.SqlServer.Service.m_reader">
+            <value>
+            This is a reference to a <c>MessageReader</c> object that serves
+            as a cursor for the batch of messages received from the queue.
+            </value>
+        </member>
+        <member name="M:Microsoft.Samples.SqlServer.Service.#ctor(System.String,System.Data.SqlClient.SqlConnection,System.Data.SqlClient.SqlTransaction)">
+            <summary>
+            The constructor instantiates a <c>Service</c> object by
+            querying the appropriate database management view for the given
+            <paramref>name</paramref>. It reads the name of the
+            queue associated with this <c>Service</c>.
+            </summary>
+            <param name="name">The name of the <c>Service</c> as defined
+            in the database</param>
+            <param name="connection">The database connection to be used
+            by this <c>Service</c></param>
+            <param name="transaction">The transaction to use for firing database queries
+            </param>
+            <exception cref="T:System.ArgumentException">Thrown if no such service found
+            in the database connected to the given connection.</exception>
+        </member>
+        <member name="M:Microsoft.Samples.SqlServer.Service.#ctor(System.String,System.Data.SqlClient.SqlConnection)">
+            <summary>
+            The constructor is identical to the one above minus the ability to
+            pass in a pre-existing transaction.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Samples.SqlServer.Service.LoadState(System.Data.SqlClient.SqlDataReader,System.Data.SqlClient.SqlConnection,System.Data.SqlClient.SqlTransaction)">
+            <summary>
+            <para>
+            This method is invoked inside the message loop for loading
+            the application state associated with the conversation group
+            being processed into the current context. It is passed an
+            <c>SqlDataReader</c> containing the result set(s) of executing
+            the stored proc <c>m_appLoaderProcName</c>. For proper functioning
+            it must only consume as many result sets as the stored proc is
+            designed to emit since the <paramref>reader</paramref> also
+            contains a batch of messages on the queue which are processed
+            later.</para>
+            <para>Users must override this method to perform application specific
+            database operations.</para>
+            <param name="reader">Data reader containing result set(s) of
+            executing the configured stored proc</param>
+            <param name="connection">Connection which was used for doing the RECEIVE</param>
+            <param name="transaction">Transaction which was used for doing the RECEIVE</param>
+            </summary>
+        </member>
+        <member name="M:Microsoft.Samples.SqlServer.Service.SaveState(System.Data.SqlClient.SqlConnection,System.Data.SqlClient.SqlTransaction)">
+            <summary>
+            This method is invoked inside the message loop when the 
+            service program has finished processing a conversation group and
+            wishes to save the state to the database.
+            Users must override this method to perform application specific
+            database operations.
+            <param name="connection">Connection which was used for doing the RECEIVE</param>
+            <param name="transaction">Transaction which was used for doing the RECEIVE</param>
+            </summary>
+        </member>
+        <member name="M:Microsoft.Samples.SqlServer.Service.DispatchMessage(Microsoft.Samples.SqlServer.Message,System.Data.SqlClient.SqlConnection,System.Data.SqlClient.SqlTransaction)">
+            <summary>
+            This method provides a default implementation for dispatching messages
+            to the appropriate broker methods as specified in the derived class. The user
+            may overrride this method if attributed methods are not desired.
+            </summary>
+            <param name="message">The message received by the service</param>
+            <param name="connection">Connection which was used for doing the RECEIVE</param>
+            <param name="transaction">Transaction which was used for doing the RECEIVE</param>
+            <exception cref="T:System.NotImplementedException">Thrown if there is no broker method to
+            handle the current event</exception>
+        </member>
+        <member name="M:Microsoft.Samples.SqlServer.Service.Run(System.Boolean,System.Data.SqlClient.SqlConnection,System.Data.SqlClient.SqlTransaction)">
+            <summary>
+            This is an example implementation of the message loop. It fetches the
+            next conversation from the message queue, reads one message at a time
+            from the conversation, translates the message using the current
+            application object and fires the corresponding event to the application.
+            Application state is saved automatically whenever a new batch of messages
+            are fetched.
+            <param name="autoCommit">Set TRUE if you would like the message loop to automatically
+            commmit at the end of each fetch batch</param>
+            <param name="connection">Connection to use for doing the RECEIVE</param>
+            <param name="transaction">Transaction to use for doing the RECEIVE</param>
+            </summary>
+        </member>
+        <member name="M:Microsoft.Samples.SqlServer.Service.EchoHandler(Microsoft.Samples.SqlServer.Message,System.Data.SqlClient.SqlConnection,System.Data.SqlClient.SqlTransaction)">
+            <summary>
+            Event handler for Echo messages.
+            </summary>
+            <param name="msgReceived">The message received.</param>
+            <param name="connection">Connection which was used for doing the RECEIVE</param>
+            <param name="transaction">Transaction which was used for doing the RECEIVE</param>
+        </member>
+        <member name="M:Microsoft.Samples.SqlServer.Service.BeginDialog(System.String,System.String,System.String,System.TimeSpan,System.Boolean,System.Data.SqlClient.SqlConnection,System.Data.SqlClient.SqlTransaction)">
+            <summary>
+            This method begins a new dialog with a remote service by invoking
+            the corresponding database command. 
+            </summary>
+            <param name="toServiceName">The name of the remote service to begin this
+            dialog with</param>
+            <param name="brokerInstance">The broker instance of the target broker
+             that has the remote service</param>
+            <param name="contractName">The contract to be used for this dialog
+            </param>
+            <param name="lifetime">The duration for which the dialog will be active. 
+            Any operation performed after the conversation has expired will result in
+            dialog errors.</param>
+            <param name="encryption">A boolean indicating whether to use encryption
+            on the dialog</param>
+            <param name="connection">The connection to use for beginning this dialog
+            </param>
+            <param name="transaction">The transaction to use for beginning this dialog
+            </param>
+            <returns>A conversation object representing this dialog</returns>
+        </member>
+        <member name="M:Microsoft.Samples.SqlServer.Service.BeginDialog(System.String,System.String,System.String,System.TimeSpan,System.Boolean,Microsoft.Samples.SqlServer.Conversation,System.Data.SqlClient.SqlConnection,System.Data.SqlClient.SqlTransaction)">
+            <summary>
+            This method begins a new dialog with a remote service by invoking
+            the corresponding database command. It associates the dialog with
+            the conversation specified in <paramref>relatedConversation</paramref>
+            by putting them in the same conversation group.
+            </summary>
+            <param name="toServiceName">The name of the remote service to begin this
+            dialog with</param>
+            <param name="brokerInstance">The broker instance of the target broker
+             that has the remote service</param>
+            <param name="contractName">The contract to be used for this dialog
+            </param>
+            <param name="lifetime">The duration for which the dialog will be active. 
+            Any operation performed after the conversation has expired will result in
+            dialog errors.</param>
+            <param name="encryption">A boolean indicating whether to use encryption
+            on the dialog</param>
+            <param name="relatedConversation">The conversation that the new dialog
+            should be related to</param>
+            <param name="connection">The connection to use for beginning this dialog
+            </param>
+            <param name="transaction">The transaction to use for beginning this dialog
+            </param>
+            <returns>A conversation object representing this dialog</returns>
+        </member>
+        <member name="M:Microsoft.Samples.SqlServer.Service.BeginDialog(System.String,System.String,System.String,System.TimeSpan,System.Boolean,System.Guid,System.Data.SqlClient.SqlConnection,System.Data.SqlClient.SqlTransaction)">
+            <summary>
+            This method begins a new dialog with a remote service by invoking
+            the corresponding database command. It associates the dialog with
+            the specified conversation group.
+            </summary>
+            <param name="toServiceName">The name of the remote service to begin this
+            dialog with</param>
+            <param name="brokerInstance">The broker instance of the target broker
+             that has the remote service</param>
+            <param name="contractName">The contract to be used for this dialog
+            </param>
+            <param name="lifetime">The duration for which the dialog will be active. 
+            Any operation performed after the conversation has expired will result in
+            dialog errors.</param>
+            <param name="encryption">A boolean indicating whether to use encryption
+            on the dialog</param>
+            <param name="groupId">The conversation group Id that the new dialog
+            should belong to</param>
+            <param name="connection">The connection to use for beginning this dialog
+            </param>
+            <param name="transaction">The transaction to use for beginning this dialog
+            </param>
+            <returns>A conversation object representing this dialog</returns>
+        </member>
+        <member name="M:Microsoft.Samples.SqlServer.Service.GetConversation(System.Data.SqlClient.SqlConnection,System.Data.SqlClient.SqlTransaction)">
+            <summary>
+            This method returns the next active conversation on the message queue. If
+            associated <c>MessageReader</c> object is empty, a new batch of messages
+            are fetched from the database.
+            </summary>
+            <param name="connection">The connection to use for fetching message batch
+            </param>
+            <param name="transaction">The transaction to use for fetching message batch
+            </param>
+            <returns>A <c>Conversation</c> object on which <c>Receive</c> may be invoked
+            to get the messages received on that conversation.</returns>
+        </member>
+        <member name="M:Microsoft.Samples.SqlServer.Service.GetConversation(Microsoft.Samples.SqlServer.Conversation,System.Data.SqlClient.SqlConnection,System.Data.SqlClient.SqlTransaction)">
+            <summary>
+            This method blocks (or times out) until the specified conversation is
+            available on the message queue.
+            </summary>
+            <param name="conversation">The conversation to fetch from the queue</param>
+            <param name="connection">The connection to use for fetching message batch
+            </param>
+            <param name="transaction">The transaction to use for fetching message batch
+            </param>
+            <returns>The conversation available on the queue</returns>
+            <exception cref="T:System.InvalidOperationException">Thrown if attempted to call
+            this method when there is some other conversation active.</exception>
+        </member>
+        <member name="M:Microsoft.Samples.SqlServer.Service.BeginDialogInternal(System.String,System.String,System.String,System.TimeSpan,System.Boolean,Microsoft.Samples.SqlServer.Conversation,System.Guid,System.Data.SqlClient.SqlConnection,System.Data.SqlClient.SqlTransaction)">
+            <summary>
+            This is an internal method that is called by the various <c>BeginDialog</c> 
+            methods. It invokes the BEGIN DIALOG T-SQL command and creates a new
+            Conversation object wrapping the returned conversation handle.
+            </summary>
+            <param name="toServiceName">The name of the remote service to connect
+            to</param>
+            <param name="brokerInstance">The broker instance of the target broker
+             that has the remote service</param>
+            <param name="contractName">The contract to be used for this dialog
+            </param>
+            <param name="lifetime">The duration for which the dialog will be active. 
+            Any operation performed after the conversation has expired will result in
+            dialog errors.</param>
+            <param name="encryption">A boolean indicating whether to use encryption
+            on the dialog</param>
+            <param name="conversation">The conversation that the new dialog
+            should be related to</param>
+            <param name="groupId">The conversation group Id that the new dialog
+            should belong to</param>
+            <param name="connection">The connection to use for beginning this dialog
+            </param>
+            <param name="transaction">The transaction to use for beginning this dialog
+            </param>
+            <returns>A conversation object representing this dialog</returns>
+        </member>
+        <member name="M:Microsoft.Samples.SqlServer.Service.FetchNextMessageBatch(Microsoft.Samples.SqlServer.Conversation,System.Data.SqlClient.SqlConnection,System.Data.SqlClient.SqlTransaction)">
+            <summary>
+            <para>
+            This private method is called to fetch a new set of messages from the
+            queue. If the <paramref>conversation</paramref> parameter is non-null, we execute
+            the following database command:
+            <code>
+            RECEIVE conversation_group_id, conversation_handle,message_sequence_number, 
+            		service_name, service_contract_name, message_type_name, validation,
+            		message_body
+            FROM m_queuename
+            WHERE conversation_handle=conversation.Handle
+            </code>
+            
+            If <paramref>conversation</paramref> is null, we check if a stored proc is set or 
+            not and then invoke the appropriate database command. If no stored proc is
+            set, then the batch of commands we use is:
+            <code>
+            RECEIVE conversation_group_id, conversation_handle,message_sequence_number, 
+            		service_name, service_contract_name, message_type_name, validation,
+            		message_body
+            FROM m_queuename
+            </code>
+            If a stored proc is set, then we use:
+            <code>
+            DECLARE @cgid UNIQUEIDENTIFIER;
+            IF @cgid IS NOT NULL
+            BEGIN
+            	GET CONVERSATION GROUP @cgid FROM m_queuename;
+            	EXEC m_AppLoaderProcName (@cgid);
+            	RECEIVE conversation_group_id, conversation_handle,message_sequence_number, 
+            		service_name, service_contract_name, message_type_name, validation,
+            		message_body
+            	FROM m_queuename
+            	WHERE conversation_group_id=@cgid;
+            END
+            </code>
+            </para>
+            
+            <para>If the stored proc was specified, then we send the <c>SqlDataReader</c>
+            returned to the <c>Load</c> method to load the application state associated
+            with the current conversation group. The <c>Load</c> method consumes all the 
+            result sets returned by the user's stored proc but leaves the result set
+            returned by the RECEIVE. After loading the application state, we initialize
+            the message reader with the <c>SqlDataReader</c>, which can iterate over the 
+            batch of messages received.
+            </para>
+            </summary>
+            <param name="conversation">If set to a valid conversation, then we only fetch
+            messages belonging to that conversation</param>
+            <param name="connection">The connection to use for issuing the T-SQL batch for
+            fetching messages</param>
+            <param name="transaction">The transaction to use issuing the T-SQL batch for
+            fetching messages</param>
+        </member>
+        <member name="P:Microsoft.Samples.SqlServer.Service.AppLoaderProcName">
+            <value>
+            If this property is non-null, the message loop executes
+            the stored proc with this name while fetching the next batch of
+            messages to be processed. The stored proc is an application
+            specific stored proc that takes the conversation group ID as a 
+            parameter and returns one or more result sets that are used for
+            loading an application from database tables.
+            </value>
+        </member>
+        <member name="P:Microsoft.Samples.SqlServer.Service.Name">
+            <value>
+            The service name
+            </value>
+        </member>
+        <member name="P:Microsoft.Samples.SqlServer.Service.FetchSize">
+            <value>
+            The number of messages to be fetched in a database roundtrip.
+            </value>
+        </member>
+        <member name="P:Microsoft.Samples.SqlServer.Service.State">
+            <value>
+            Override this property if stateful behaviour of the service is desired. 
+            Default returns -1.
+            </value>
+        </member>
+        <member name="P:Microsoft.Samples.SqlServer.Service.HasMoreMessages">
+            <value>Returns a value indicating whether there are more messages 
+            to be processed from the queue.</value>
+        </member>
+        <member name="P:Microsoft.Samples.SqlServer.Service.WaitforTimeout">
+            <value>The waitfor parameter for doing a RECEIVE while fetching new messages.</value>
+        </member>
+    </members>
+</doc>

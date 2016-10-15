@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Activator>
+	<Setup>
+		<!-- define the notification service that we will listen on -->
+		<NotificationSQLServer>localhost</NotificationSQLServer>
+		<NotificationDatabase>Inventory</NotificationDatabase>
+		<NotificationService>ExternalActivator</NotificationService>
+
+		<!-- optional elements -->
+		<!-- default false -->
+		<EnableDebugTrace>true</EnableDebugTrace>
+	</Setup>
+
+	<ConfigurationRecord Enabled ="true">
+		<ApplicationName>d:\Klaus\Work\Programming\Servers\SQL Server 2005\Service Broker\PDC Samples\2 - CLR Services\External Activation\InventoryServer\bin\Debug\InventoryServer.exe</ApplicationName>
+
+		<!-- optional elements -->
+		<!-- the name of the SQL server where the user queue resides. Can be * which will mean any -->
+		<SQLServer>WINXP_KLAUS</SQLServer>
+		<!-- the name of the database where the user queue resides. Can be * which will mean any -->
+		<Database>Inventory</Database>
+		<!-- the name of the schema of the user queue. Can be * which will mean any -->
+		<Schema>dbo</Schema>
+		<!-- the name of the user queue. Can be * which will mean any -->
+		<Queue>Inventory Queue</Queue>
+		<!-- default "". You can use following macros: %sqlserver% %database% %schema% %queue%.
+			they will be replaced with the names from the configuration record
+			before the application is started. -->
+		<CommandLineArgs/>
+		<!-- default 0 -->
+		<Min>0</Min>
+		<!-- default 1 -->
+		<Max>5</Max>
+		<!-- default false -->
+		<HasConsole>false</HasConsole>
+		<!-- default use the standard output-->
+		<StandardOut/>
+		<!-- default use the standard input-->
+		<StandardIn/>
+		<!-- default use the standard error output-->
+		<StandardErr/>
+	</ConfigurationRecord>
+</Activator>

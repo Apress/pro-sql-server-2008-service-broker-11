@@ -1,0 +1,7 @@
+J:\Pro SQL 2008 Service Broker\Chapter 5\Samples\ManagedServiceBroker\ManagedClient\obj\Debug\05_ManagedServiceBroker.exe
+J:\Pro SQL 2008 Service Broker\Chapter 5\Samples\ManagedServiceBroker\ManagedClient\obj\Debug\05_ManagedServiceBroker.pdb
+J:\Pro SQL 2008 Service Broker\Chapter 5\Samples\ManagedServiceBroker\ManagedClient\bin\Debug\05_ManagedServiceBroker.exe
+J:\Pro SQL 2008 Service Broker\Chapter 5\Samples\ManagedServiceBroker\ManagedClient\bin\Debug\05_ManagedServiceBroker.pdb
+J:\Pro SQL 2008 Service Broker\Chapter 5\Samples\ManagedServiceBroker\ManagedClient\bin\Debug\ServiceBrokerInterface.dll
+J:\Pro SQL 2008 Service Broker\Chapter 5\Samples\ManagedServiceBroker\ManagedClient\bin\Debug\ServiceBrokerInterface.pdb
+J:\Pro SQL 2008 Service Broker\Chapter 5\Samples\ManagedServiceBroker\ManagedClient\obj\Debug\ResolveAssemblyReference.cache

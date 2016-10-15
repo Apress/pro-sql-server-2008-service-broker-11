@@ -1,0 +1,478 @@
+27.09.2006 18:12:33	STATUS:	--- Output logging has started ---
+27.09.2006 18:12:33	STATUS:	External Activator is initializing...
+27.09.2006 18:12:33	STATUS:	Running recovery using 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\ExternalActivator\bin\Debug\ExternalActivator.exe.RecoveryLog' ...
+27.09.2006 18:12:33	STATUS:	Recovery completed.
+27.09.2006 18:12:33	STATUS:	Initializing configuration manager...
+27.09.2006 18:12:33	STATUS:	Debug information will be reported in the output log.
+27.09.2006 18:12:33	STATUS:	External Activator initialization completed.
+27.09.2006 18:12:33	DEBUG:	Re-reading the Configuration File because Configuration File changes might have occurred before FileSystemWatcher was registered
+27.09.2006 18:12:33	DEBUG:	Starting up any applications if number of instances is below minimum
+27.09.2006 18:12:33	DEBUG:	Starting up the Notification service...
+27.09.2006 18:12:33	INFO:	Connection to notification SQL server 'localhost' and database 'Chapter4_ExternalActivation' is established.
+27.09.2006 18:12:33	INFO:	Notification service 'ExternalActivatorService' is started.
+27.09.2006 18:12:33	DEBUG:	Processing received message...
+27.09.2006 18:12:33	DEBUG:	Trying to start application associated with [WINXP_KLAUS].[Chapter4_ExternalActivation].[dbo].[TargetQueue] because a notification message was received.
+27.09.2006 18:12:33	DEBUG:	Activating process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe' associated with [WINXP_KLAUS].[Chapter4_ExternalActivation].[dbo].[TargetQueue] number of running instances is 0 and Max is 5.
+27.09.2006 18:12:33	DEBUG:	Using standard Out, In and Error for process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe'.
+27.09.2006 18:12:33	DEBUG:	Process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe' started with pid: 1616
+27.09.2006 18:12:33	DEBUG:	Received message is processed.
+27.09.2006 18:12:44	DEBUG:	Process with pid: 1616 died.
+27.09.2006 18:13:02	DEBUG:	Processing received message...
+27.09.2006 18:13:02	DEBUG:	Trying to start application associated with [WINXP_KLAUS].[Chapter4_ExternalActivation].[dbo].[TargetQueue] because a notification message was received.
+27.09.2006 18:13:02	DEBUG:	Activating process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe' associated with [WINXP_KLAUS].[Chapter4_ExternalActivation].[dbo].[TargetQueue] number of running instances is 0 and Max is 5.
+27.09.2006 18:13:02	DEBUG:	Using standard Out, In and Error for process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe'.
+27.09.2006 18:13:02	DEBUG:	Process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe' started with pid: 1812
+27.09.2006 18:13:02	DEBUG:	Received message is processed.
+27.09.2006 18:13:03	DEBUG:	Check for monitored applications that need to start processes.
+27.09.2006 18:13:03	DEBUG:	Starting up any applications if number of instances is below minimum
+27.09.2006 18:13:15	DEBUG:	Process with pid: 1812 died.
+27.09.2006 18:13:33	DEBUG:	Check for monitored applications that need to start processes.
+27.09.2006 18:13:33	DEBUG:	Starting up any applications if number of instances is below minimum
+27.09.2006 18:13:33	DEBUG:	Processing received message...
+27.09.2006 18:13:33	DEBUG:	Trying to start application associated with [WINXP_KLAUS].[Chapter4_ExternalActivation].[dbo].[TargetQueue] because a notification message was received.
+27.09.2006 18:13:33	DEBUG:	Activating process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe' associated with [WINXP_KLAUS].[Chapter4_ExternalActivation].[dbo].[TargetQueue] number of running instances is 0 and Max is 5.
+27.09.2006 18:13:33	DEBUG:	Using standard Out, In and Error for process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe'.
+27.09.2006 18:13:33	DEBUG:	Process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe' started with pid: 3004
+27.09.2006 18:13:33	DEBUG:	Received message is processed.
+27.09.2006 18:13:45	DEBUG:	Process with pid: 3004 died.
+27.09.2006 18:13:47	DEBUG:	Processing received message...
+27.09.2006 18:13:47	DEBUG:	Trying to start application associated with [WINXP_KLAUS].[Chapter4_ExternalActivation].[dbo].[TargetQueue] because a notification message was received.
+27.09.2006 18:13:47	DEBUG:	Activating process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe' associated with [WINXP_KLAUS].[Chapter4_ExternalActivation].[dbo].[TargetQueue] number of running instances is 0 and Max is 5.
+27.09.2006 18:13:47	DEBUG:	Using standard Out, In and Error for process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe'.
+27.09.2006 18:13:47	DEBUG:	Process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe' started with pid: 1624
+27.09.2006 18:13:47	DEBUG:	Received message is processed.
+27.09.2006 18:13:59	DEBUG:	Process with pid: 1624 died.
+27.09.2006 18:14:03	DEBUG:	Check for monitored applications that need to start processes.
+27.09.2006 18:14:03	DEBUG:	Starting up any applications if number of instances is below minimum
+27.09.2006 18:14:33	DEBUG:	Check for monitored applications that need to start processes.
+27.09.2006 18:14:33	DEBUG:	Starting up any applications if number of instances is below minimum
+27.09.2006 18:15:03	DEBUG:	Check for monitored applications that need to start processes.
+27.09.2006 18:15:03	DEBUG:	Starting up any applications if number of instances is below minimum
+27.09.2006 18:15:33	DEBUG:	Check for monitored applications that need to start processes.
+27.09.2006 18:15:33	DEBUG:	Starting up any applications if number of instances is below minimum
+27.09.2006 18:16:03	DEBUG:	Check for monitored applications that need to start processes.
+27.09.2006 18:16:03	DEBUG:	Starting up any applications if number of instances is below minimum
+27.09.2006 18:16:33	DEBUG:	Check for monitored applications that need to start processes.
+27.09.2006 18:16:33	DEBUG:	Starting up any applications if number of instances is below minimum
+27.09.2006 18:17:03	DEBUG:	Check for monitored applications that need to start processes.
+27.09.2006 18:17:03	DEBUG:	Starting up any applications if number of instances is below minimum
+27.09.2006 18:17:33	DEBUG:	Check for monitored applications that need to start processes.
+27.09.2006 18:17:33	DEBUG:	Starting up any applications if number of instances is below minimum
+27.09.2006 18:18:03	DEBUG:	Check for monitored applications that need to start processes.
+27.09.2006 18:18:03	DEBUG:	Starting up any applications if number of instances is below minimum
+27.09.2006 18:18:33	DEBUG:	Check for monitored applications that need to start processes.
+27.09.2006 18:18:33	DEBUG:	Starting up any applications if number of instances is below minimum
+27.09.2006 18:18:58	STATUS:	External Activator is shutting down...
+27.09.2006 18:18:58	STATUS:	Shutting down the recovery log manager
+27.09.2006 18:18:58	DEBUG:	Checkpointing the recovery log ...
+27.09.2006 18:18:58	DEBUG:	Checkpointed the recovery log.
+27.09.2006 18:20:20	STATUS:	--- Output logging has started ---
+27.09.2006 18:20:20	STATUS:	External Activator is initializing...
+27.09.2006 18:20:20	STATUS:	Running recovery using 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\ExternalActivator\bin\Debug\ExternalActivator.exe.RecoveryLog' ...
+27.09.2006 18:20:20	STATUS:	Recovery completed.
+27.09.2006 18:20:20	STATUS:	Initializing configuration manager...
+27.09.2006 18:20:21	STATUS:	Debug information will be reported in the output log.
+27.09.2006 18:20:21	STATUS:	External Activator initialization completed.
+27.09.2006 18:20:21	DEBUG:	Re-reading the Configuration File because Configuration File changes might have occurred before FileSystemWatcher was registered
+27.09.2006 18:20:21	DEBUG:	Starting up any applications if number of instances is below minimum
+27.09.2006 18:20:21	DEBUG:	Starting up the Notification service...
+27.09.2006 18:20:21	INFO:	Connection to notification SQL server 'localhost' and database 'Chapter4_ExternalActivation' is established.
+27.09.2006 18:20:21	INFO:	Notification service 'ExternalActivatorService' is started.
+27.09.2006 18:20:29	STATUS:	External Activator is shutting down...
+27.09.2006 18:20:29	STATUS:	Shutting down the recovery log manager
+27.09.2006 18:20:29	DEBUG:	Checkpointing the recovery log ...
+27.09.2006 18:20:29	DEBUG:	Checkpointed the recovery log.
+27.09.2006 18:21:49	STATUS:	--- Output logging has started ---
+27.09.2006 18:21:49	STATUS:	External Activator is initializing...
+27.09.2006 18:21:49	STATUS:	Running recovery using 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\ExternalActivator\bin\Debug\ExternalActivator.exe.RecoveryLog' ...
+27.09.2006 18:21:49	STATUS:	Recovery completed.
+27.09.2006 18:21:49	STATUS:	Initializing configuration manager...
+27.09.2006 18:21:49	STATUS:	Debug information will be reported in the output log.
+27.09.2006 18:21:49	STATUS:	External Activator initialization completed.
+27.09.2006 18:21:49	DEBUG:	Re-reading the Configuration File because Configuration File changes might have occurred before FileSystemWatcher was registered
+27.09.2006 18:21:49	DEBUG:	Starting up any applications if number of instances is below minimum
+27.09.2006 18:21:49	DEBUG:	Starting up the Notification service...
+27.09.2006 18:21:49	INFO:	Connection to notification SQL server 'localhost' and database 'Chapter4_ExternalActivation' is established.
+27.09.2006 18:21:49	INFO:	Notification service 'ExternalActivatorService' is started.
+27.09.2006 18:22:19	DEBUG:	Check for monitored applications that need to start processes.
+27.09.2006 18:22:19	DEBUG:	Starting up any applications if number of instances is below minimum
+27.09.2006 18:22:49	DEBUG:	Check for monitored applications that need to start processes.
+27.09.2006 18:22:49	DEBUG:	Starting up any applications if number of instances is below minimum
+27.09.2006 18:23:19	DEBUG:	Check for monitored applications that need to start processes.
+27.09.2006 18:23:19	DEBUG:	Starting up any applications if number of instances is below minimum
+27.09.2006 18:23:49	DEBUG:	Check for monitored applications that need to start processes.
+27.09.2006 18:23:49	DEBUG:	Starting up any applications if number of instances is below minimum
+27.09.2006 18:24:19	DEBUG:	Check for monitored applications that need to start processes.
+27.09.2006 18:24:19	DEBUG:	Starting up any applications if number of instances is below minimum
+27.09.2006 18:24:40	STATUS:	Monitored applications status
+27.09.2006 18:24:40	STATUS DETAILS:	    Application associated with [WINXP_KLAUS].[Chapter4_ExternalActivation].[dbo].[TargetQueue] monitors 0 running processes. 0 processes were started successfully.
+27.09.2006 18:24:46	STATUS:	Configuration status for notification service 'ExternalActivatorService' on SQL Server 'localhost' and Database 'Chapter4_ExternalActivation'.
+27.09.2006 18:24:46	STATUS DETAILS:	    Enabled configuration associated with [WINXP_KLAUS].[Chapter4_ExternalActivation].[dbo].[TargetQueue] and application <d:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe>	Min=0 Max=5.
+27.09.2006 18:24:49	DEBUG:	Check for monitored applications that need to start processes.
+27.09.2006 18:24:49	DEBUG:	Starting up any applications if number of instances is below minimum
+27.09.2006 18:25:10	STATUS:	Notification service 'ExternalActivatorService' on SQL Server 'localhost' and Database 'Chapter4_ExternalActivation' is connected to the database and working.
+27.09.2006 18:25:19	DEBUG:	Check for monitored applications that need to start processes.
+27.09.2006 18:25:19	DEBUG:	Starting up any applications if number of instances is below minimum
+27.09.2006 18:25:49	DEBUG:	Check for monitored applications that need to start processes.
+27.09.2006 18:25:49	DEBUG:	Starting up any applications if number of instances is below minimum
+27.09.2006 18:25:58	STATUS:	Debug information will be reported in the output log.
+27.09.2006 18:26:01	STATUS:	Debug information will be reported in the output log.
+27.09.2006 18:26:19	DEBUG:	Check for monitored applications that need to start processes.
+27.09.2006 18:26:19	DEBUG:	Starting up any applications if number of instances is below minimum
+27.09.2006 18:26:49	DEBUG:	Check for monitored applications that need to start processes.
+27.09.2006 18:26:49	DEBUG:	Starting up any applications if number of instances is below minimum
+27.09.2006 18:27:19	DEBUG:	Check for monitored applications that need to start processes.
+27.09.2006 18:27:19	DEBUG:	Starting up any applications if number of instances is below minimum
+27.09.2006 18:27:49	DEBUG:	Check for monitored applications that need to start processes.
+27.09.2006 18:27:49	DEBUG:	Starting up any applications if number of instances is below minimum
+27.09.2006 18:28:00	STATUS:	External Activator is shutting down...
+27.09.2006 18:28:00	STATUS:	Shutting down the recovery log manager
+27.09.2006 18:28:00	DEBUG:	Checkpointing the recovery log ...
+27.09.2006 18:28:00	DEBUG:	Checkpointed the recovery log.
+27.09.2006 19:15:03	STATUS:	--- Output logging has started ---
+27.09.2006 19:15:03	STATUS:	External Activator is initializing...
+27.09.2006 19:15:03	STATUS:	Running recovery using 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\ExternalActivator\bin\Debug\ExternalActivator.exe.RecoveryLog' ...
+27.09.2006 19:15:03	STATUS:	Recovery completed.
+27.09.2006 19:15:03	STATUS:	Initializing configuration manager...
+27.09.2006 19:15:04	STATUS:	Debug information will be reported in the output log.
+27.09.2006 19:15:04	STATUS:	External Activator initialization completed.
+27.09.2006 19:15:04	DEBUG:	Re-reading the Configuration File because Configuration File changes might have occurred before FileSystemWatcher was registered
+27.09.2006 19:15:04	DEBUG:	Starting up any applications if number of instances is below minimum
+27.09.2006 19:15:04	DEBUG:	Starting up the Notification service...
+27.09.2006 19:15:04	INFO:	Connection to notification SQL server 'localhost' and database 'Chapter4_ExternalActivation' is established.
+27.09.2006 19:15:04	INFO:	Notification service 'ExternalActivatorService' is started.
+27.09.2006 19:15:06	STATUS:	Monitored applications status
+27.09.2006 19:15:06	STATUS DETAILS:	    Application associated with [WINXP_KLAUS].[Chapter4_ExternalActivation].[dbo].[TargetQueue] monitors 0 running processes. 0 processes were started successfully.
+27.09.2006 19:15:17	STATUS:	External Activator is shutting down...
+27.09.2006 19:15:17	STATUS:	Shutting down the recovery log manager
+27.09.2006 19:15:17	DEBUG:	Checkpointing the recovery log ...
+27.09.2006 19:15:17	DEBUG:	Checkpointed the recovery log.
+27.09.2006 19:15:33	STATUS:	--- Output logging has started ---
+27.09.2006 19:15:33	STATUS:	External Activator is initializing...
+27.09.2006 19:15:33	STATUS:	Running recovery using 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\ExternalActivator\bin\Debug\ExternalActivator.exe.RecoveryLog' ...
+27.09.2006 19:15:33	STATUS:	Recovery completed.
+27.09.2006 19:15:33	STATUS:	Initializing configuration manager...
+27.09.2006 19:15:34	STATUS:	Debug information will be reported in the output log.
+27.09.2006 19:15:34	STATUS:	External Activator initialization completed.
+27.09.2006 19:15:34	DEBUG:	Re-reading the Configuration File because Configuration File changes might have occurred before FileSystemWatcher was registered
+27.09.2006 19:15:34	DEBUG:	Starting up any applications if number of instances is below minimum
+27.09.2006 19:15:34	DEBUG:	Starting up the Notification service...
+27.09.2006 19:15:34	INFO:	Connection to notification SQL server 'localhost' and database 'Chapter4_ExternalActivation' is established.
+27.09.2006 19:15:34	INFO:	Notification service 'ExternalActivatorService' is started.
+27.09.2006 19:15:35	STATUS:	Monitored applications status
+27.09.2006 19:15:35	STATUS DETAILS:	    Application associated with [WINXP_KLAUS].[Chapter4_ExternalActivation].[dbo].[TargetQueue] monitors 0 running processes. 0 processes were started successfully.
+27.09.2006 19:15:40	DEBUG:	Processing received message...
+27.09.2006 19:15:40	DEBUG:	Trying to start application associated with [WINXP_KLAUS].[Chapter4_ExternalActivation].[dbo].[TargetQueue] because a notification message was received.
+27.09.2006 19:15:40	DEBUG:	Activating process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe' associated with [WINXP_KLAUS].[Chapter4_ExternalActivation].[dbo].[TargetQueue] number of running instances is 0 and Max is 5.
+27.09.2006 19:15:40	DEBUG:	Using standard Out, In and Error for process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe'.
+27.09.2006 19:15:40	DEBUG:	Process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe' started with pid: 3984
+27.09.2006 19:15:40	DEBUG:	Received message is processed.
+27.09.2006 19:15:52	DEBUG:	Process with pid: 3984 died.
+27.09.2006 19:15:57	DEBUG:	Processing received message...
+27.09.2006 19:15:57	DEBUG:	Trying to start application associated with [WINXP_KLAUS].[Chapter4_ExternalActivation].[dbo].[TargetQueue] because a notification message was received.
+27.09.2006 19:15:57	DEBUG:	Activating process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe' associated with [WINXP_KLAUS].[Chapter4_ExternalActivation].[dbo].[TargetQueue] number of running instances is 0 and Max is 5.
+27.09.2006 19:15:57	DEBUG:	Using standard Out, In and Error for process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe'.
+27.09.2006 19:15:57	DEBUG:	Process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe' started with pid: 264
+27.09.2006 19:15:57	DEBUG:	Received message is processed.
+27.09.2006 19:16:03	DEBUG:	Check for monitored applications that need to start processes.
+27.09.2006 19:16:03	DEBUG:	Starting up any applications if number of instances is below minimum
+27.09.2006 19:16:09	DEBUG:	Process with pid: 264 died.
+27.09.2006 19:16:33	DEBUG:	Check for monitored applications that need to start processes.
+27.09.2006 19:16:33	DEBUG:	Starting up any applications if number of instances is below minimum
+27.09.2006 19:17:03	DEBUG:	Check for monitored applications that need to start processes.
+27.09.2006 19:17:03	DEBUG:	Starting up any applications if number of instances is below minimum
+27.09.2006 19:17:33	DEBUG:	Check for monitored applications that need to start processes.
+27.09.2006 19:17:33	DEBUG:	Starting up any applications if number of instances is below minimum
+27.09.2006 19:18:03	DEBUG:	Check for monitored applications that need to start processes.
+27.09.2006 19:18:03	DEBUG:	Starting up any applications if number of instances is below minimum
+27.09.2006 19:18:33	DEBUG:	Check for monitored applications that need to start processes.
+27.09.2006 19:18:33	DEBUG:	Starting up any applications if number of instances is below minimum
+27.09.2006 19:18:42	STATUS:	External Activator is shutting down...
+27.09.2006 19:18:42	STATUS:	Shutting down the recovery log manager
+27.09.2006 19:18:42	DEBUG:	Checkpointing the recovery log ...
+27.09.2006 19:18:42	DEBUG:	Checkpointed the recovery log.
+27.09.2006 19:30:30	STATUS:	--- Output logging has started ---
+27.09.2006 19:30:30	STATUS:	External Activator is initializing...
+27.09.2006 19:30:30	STATUS:	Running recovery using 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\ExternalActivator\bin\Debug\ExternalActivator.exe.RecoveryLog' ...
+27.09.2006 19:30:30	STATUS:	Recovery completed.
+27.09.2006 19:30:30	STATUS:	Initializing configuration manager...
+27.09.2006 19:30:31	STATUS:	Debug information will be reported in the output log.
+27.09.2006 19:30:31	STATUS:	External Activator initialization completed.
+27.09.2006 19:30:31	DEBUG:	Re-reading the Configuration File because Configuration File changes might have occurred before FileSystemWatcher was registered
+27.09.2006 19:30:31	DEBUG:	Starting up any applications if number of instances is below minimum
+27.09.2006 19:30:31	DEBUG:	Starting up the Notification service...
+27.09.2006 19:30:31	INFO:	Connection to notification SQL server 'localhost' and database 'Chapter4_ExternalActivation' is established.
+27.09.2006 19:30:31	INFO:	Notification service 'ExternalActivatorService' is started.
+27.09.2006 19:30:33	STATUS:	Monitored applications status
+27.09.2006 19:30:33	STATUS DETAILS:	    Application associated with [WINXP_KLAUS].[Chapter4_ExternalActivation].[dbo].[TargetQueue] monitors 0 running processes. 0 processes were started successfully.
+27.09.2006 19:30:37	DEBUG:	Processing received message...
+27.09.2006 19:30:37	DEBUG:	Trying to start application associated with [WINXP_KLAUS].[Chapter4_ExternalActivation].[dbo].[TargetQueue] because a notification message was received.
+27.09.2006 19:30:37	DEBUG:	Activating process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe' associated with [WINXP_KLAUS].[Chapter4_ExternalActivation].[dbo].[TargetQueue] number of running instances is 0 and Max is 5.
+27.09.2006 19:30:37	DEBUG:	Using standard Out, In and Error for process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe'.
+27.09.2006 19:30:37	DEBUG:	Process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe' started with pid: 3432
+27.09.2006 19:30:37	DEBUG:	Received message is processed.
+27.09.2006 19:30:49	DEBUG:	Process with pid: 3432 died.
+27.09.2006 19:30:51	DEBUG:	Processing received message...
+27.09.2006 19:30:51	DEBUG:	Trying to start application associated with [WINXP_KLAUS].[Chapter4_ExternalActivation].[dbo].[TargetQueue] because a notification message was received.
+27.09.2006 19:30:51	DEBUG:	Activating process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe' associated with [WINXP_KLAUS].[Chapter4_ExternalActivation].[dbo].[TargetQueue] number of running instances is 0 and Max is 5.
+27.09.2006 19:30:51	DEBUG:	Using standard Out, In and Error for process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe'.
+27.09.2006 19:30:51	DEBUG:	Process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe' started with pid: 3816
+27.09.2006 19:30:51	DEBUG:	Received message is processed.
+27.09.2006 19:31:00	DEBUG:	Check for monitored applications that need to start processes.
+27.09.2006 19:31:00	DEBUG:	Starting up any applications if number of instances is below minimum
+27.09.2006 19:31:02	DEBUG:	Process with pid: 3816 died.
+27.09.2006 19:31:03	DEBUG:	Processing received message...
+27.09.2006 19:31:03	DEBUG:	Trying to start application associated with [WINXP_KLAUS].[Chapter4_ExternalActivation].[dbo].[TargetQueue] because a notification message was received.
+27.09.2006 19:31:03	DEBUG:	Activating process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe' associated with [WINXP_KLAUS].[Chapter4_ExternalActivation].[dbo].[TargetQueue] number of running instances is 0 and Max is 5.
+27.09.2006 19:31:03	DEBUG:	Using standard Out, In and Error for process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe'.
+27.09.2006 19:31:03	DEBUG:	Process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe' started with pid: 740
+27.09.2006 19:31:03	DEBUG:	Received message is processed.
+27.09.2006 19:31:15	DEBUG:	Process with pid: 740 died.
+27.09.2006 19:31:20	DEBUG:	Processing received message...
+27.09.2006 19:31:20	DEBUG:	Trying to start application associated with [WINXP_KLAUS].[Chapter4_ExternalActivation].[dbo].[TargetQueue] because a notification message was received.
+27.09.2006 19:31:20	DEBUG:	Activating process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe' associated with [WINXP_KLAUS].[Chapter4_ExternalActivation].[dbo].[TargetQueue] number of running instances is 0 and Max is 5.
+27.09.2006 19:31:20	DEBUG:	Using standard Out, In and Error for process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe'.
+27.09.2006 19:31:20	DEBUG:	Process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe' started with pid: 2096
+27.09.2006 19:31:20	DEBUG:	Received message is processed.
+27.09.2006 19:31:30	DEBUG:	Check for monitored applications that need to start processes.
+27.09.2006 19:31:30	DEBUG:	Starting up any applications if number of instances is below minimum
+27.09.2006 19:31:32	DEBUG:	Process with pid: 2096 died.
+27.09.2006 19:31:33	DEBUG:	Processing received message...
+27.09.2006 19:31:33	DEBUG:	Trying to start application associated with [WINXP_KLAUS].[Chapter4_ExternalActivation].[dbo].[TargetQueue] because a notification message was received.
+27.09.2006 19:31:33	DEBUG:	Activating process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe' associated with [WINXP_KLAUS].[Chapter4_ExternalActivation].[dbo].[TargetQueue] number of running instances is 0 and Max is 5.
+27.09.2006 19:31:33	DEBUG:	Using standard Out, In and Error for process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe'.
+27.09.2006 19:31:33	DEBUG:	Process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe' started with pid: 1188
+27.09.2006 19:31:33	DEBUG:	Received message is processed.
+27.09.2006 19:31:45	DEBUG:	Process with pid: 1188 died.
+27.09.2006 19:31:48	STATUS:	External Activator is shutting down...
+27.09.2006 19:31:48	STATUS:	Shutting down the recovery log manager
+27.09.2006 19:31:48	DEBUG:	Checkpointing the recovery log ...
+27.09.2006 19:31:48	DEBUG:	Checkpointed the recovery log.
+27.09.2006 19:32:21	STATUS:	--- Output logging has started ---
+27.09.2006 19:32:21	STATUS:	External Activator is initializing...
+27.09.2006 19:32:21	STATUS:	Running recovery using 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\ExternalActivator\bin\Debug\ExternalActivator.exe.RecoveryLog' ...
+27.09.2006 19:32:21	STATUS:	Recovery completed.
+27.09.2006 19:32:21	STATUS:	Initializing configuration manager...
+27.09.2006 19:32:21	STATUS:	Debug information will be reported in the output log.
+27.09.2006 19:32:21	STATUS:	External Activator initialization completed.
+27.09.2006 19:32:21	DEBUG:	Re-reading the Configuration File because Configuration File changes might have occurred before FileSystemWatcher was registered
+27.09.2006 19:32:21	DEBUG:	Starting up any applications if number of instances is below minimum
+27.09.2006 19:32:21	DEBUG:	Starting up the Notification service...
+27.09.2006 19:32:21	INFO:	Connection to notification SQL server 'localhost' and database 'Chapter4_ExternalActivation' is established.
+27.09.2006 19:32:21	INFO:	Notification service 'ExternalActivatorService' is started.
+27.09.2006 19:32:21	DEBUG:	Processing received message...
+27.09.2006 19:32:21	DEBUG:	Trying to start application associated with [WINXP_KLAUS].[Chapter4_ExternalActivation].[dbo].[TargetQueue] because a notification message was received.
+27.09.2006 19:32:21	DEBUG:	Activating process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe' associated with [WINXP_KLAUS].[Chapter4_ExternalActivation].[dbo].[TargetQueue] number of running instances is 0 and Max is 5.
+27.09.2006 19:32:21	DEBUG:	Using standard Out, In and Error for process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe'.
+27.09.2006 19:32:22	DEBUG:	Process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe' started with pid: 3512
+27.09.2006 19:32:22	DEBUG:	Received message is processed.
+27.09.2006 19:32:22	DEBUG:	Processing received message...
+27.09.2006 19:32:22	DEBUG:	Trying to start application associated with [WINXP_KLAUS].[Chapter4_ExternalActivation].[dbo].[TargetQueue] because a notification message was received.
+27.09.2006 19:32:22	DEBUG:	Activating process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe' associated with [WINXP_KLAUS].[Chapter4_ExternalActivation].[dbo].[TargetQueue] number of running instances is 1 and Max is 5.
+27.09.2006 19:32:22	DEBUG:	Using standard Out, In and Error for process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe'.
+27.09.2006 19:32:22	DEBUG:	Process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe' started with pid: 2096
+27.09.2006 19:32:22	DEBUG:	Received message is processed.
+27.09.2006 19:32:34	DEBUG:	Process with pid: 2096 died.
+27.09.2006 19:32:34	DEBUG:	Process with pid: 3512 died.
+27.09.2006 19:32:36	STATUS:	External Activator is shutting down...
+27.09.2006 19:32:36	STATUS:	Shutting down the recovery log manager
+27.09.2006 19:32:36	DEBUG:	Checkpointing the recovery log ...
+27.09.2006 19:32:36	DEBUG:	Checkpointed the recovery log.
+27.09.2006 19:33:07	STATUS:	--- Output logging has started ---
+27.09.2006 19:33:07	STATUS:	External Activator is initializing...
+27.09.2006 19:33:07	STATUS:	Running recovery using 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\ExternalActivator\bin\Debug\ExternalActivator.exe.RecoveryLog' ...
+27.09.2006 19:33:07	STATUS:	Recovery completed.
+27.09.2006 19:33:07	STATUS:	Initializing configuration manager...
+27.09.2006 19:33:07	STATUS:	Debug information will be reported in the output log.
+27.09.2006 19:33:07	STATUS:	External Activator initialization completed.
+27.09.2006 19:33:07	DEBUG:	Re-reading the Configuration File because Configuration File changes might have occurred before FileSystemWatcher was registered
+27.09.2006 19:33:07	DEBUG:	Starting up any applications if number of instances is below minimum
+27.09.2006 19:33:07	DEBUG:	Trying to activate a process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe' associated with [WINXP_KLAUS].[Chapter4_ExternalActivation].[dbo].[TargetQueue] because number of running instances is 0 and Min is 5
+27.09.2006 19:33:07	DEBUG:	Activating process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe' associated with [WINXP_KLAUS].[Chapter4_ExternalActivation].[dbo].[TargetQueue] number of running instances is 0 and Max is 15.
+27.09.2006 19:33:07	DEBUG:	Using standard Out, In and Error for process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe'.
+27.09.2006 19:33:07	DEBUG:	Process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe' started with pid: 3028
+27.09.2006 19:33:07	DEBUG:	Trying to activate a process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe' associated with [WINXP_KLAUS].[Chapter4_ExternalActivation].[dbo].[TargetQueue] because number of running instances is 1 and Min is 5
+27.09.2006 19:33:07	DEBUG:	Activating process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe' associated with [WINXP_KLAUS].[Chapter4_ExternalActivation].[dbo].[TargetQueue] number of running instances is 1 and Max is 15.
+27.09.2006 19:33:07	DEBUG:	Using standard Out, In and Error for process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe'.
+27.09.2006 19:33:07	DEBUG:	Process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe' started with pid: 240
+27.09.2006 19:33:07	DEBUG:	Trying to activate a process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe' associated with [WINXP_KLAUS].[Chapter4_ExternalActivation].[dbo].[TargetQueue] because number of running instances is 2 and Min is 5
+27.09.2006 19:33:07	DEBUG:	Activating process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe' associated with [WINXP_KLAUS].[Chapter4_ExternalActivation].[dbo].[TargetQueue] number of running instances is 2 and Max is 15.
+27.09.2006 19:33:07	DEBUG:	Using standard Out, In and Error for process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe'.
+27.09.2006 19:33:07	DEBUG:	Process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe' started with pid: 3868
+27.09.2006 19:33:07	DEBUG:	Trying to activate a process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe' associated with [WINXP_KLAUS].[Chapter4_ExternalActivation].[dbo].[TargetQueue] because number of running instances is 3 and Min is 5
+27.09.2006 19:33:07	DEBUG:	Activating process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe' associated with [WINXP_KLAUS].[Chapter4_ExternalActivation].[dbo].[TargetQueue] number of running instances is 3 and Max is 15.
+27.09.2006 19:33:07	DEBUG:	Using standard Out, In and Error for process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe'.
+27.09.2006 19:33:07	DEBUG:	Process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe' started with pid: 3068
+27.09.2006 19:33:07	DEBUG:	Trying to activate a process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe' associated with [WINXP_KLAUS].[Chapter4_ExternalActivation].[dbo].[TargetQueue] because number of running instances is 4 and Min is 5
+27.09.2006 19:33:07	DEBUG:	Activating process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe' associated with [WINXP_KLAUS].[Chapter4_ExternalActivation].[dbo].[TargetQueue] number of running instances is 4 and Max is 15.
+27.09.2006 19:33:07	DEBUG:	Using standard Out, In and Error for process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe'.
+27.09.2006 19:33:07	DEBUG:	Process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe' started with pid: 1548
+27.09.2006 19:33:07	DEBUG:	Starting up the Notification service...
+27.09.2006 19:33:08	INFO:	Connection to notification SQL server 'localhost' and database 'Chapter4_ExternalActivation' is established.
+27.09.2006 19:33:08	INFO:	Notification service 'ExternalActivatorService' is started.
+27.09.2006 19:33:08	DEBUG:	Processing received message...
+27.09.2006 19:33:08	DEBUG:	Trying to start application associated with [WINXP_KLAUS].[Chapter4_ExternalActivation].[dbo].[TargetQueue] because a notification message was received.
+27.09.2006 19:33:08	DEBUG:	Activating process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe' associated with [WINXP_KLAUS].[Chapter4_ExternalActivation].[dbo].[TargetQueue] number of running instances is 5 and Max is 15.
+27.09.2006 19:33:08	DEBUG:	Using standard Out, In and Error for process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe'.
+27.09.2006 19:33:08	DEBUG:	Process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe' started with pid: 3516
+27.09.2006 19:33:08	DEBUG:	Received message is processed.
+27.09.2006 19:33:08	DEBUG:	Processing received message...
+27.09.2006 19:33:08	DEBUG:	Trying to start application associated with [WINXP_KLAUS].[Chapter4_ExternalActivation].[dbo].[TargetQueue] because a notification message was received.
+27.09.2006 19:33:08	DEBUG:	Activating process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe' associated with [WINXP_KLAUS].[Chapter4_ExternalActivation].[dbo].[TargetQueue] number of running instances is 6 and Max is 15.
+27.09.2006 19:33:08	DEBUG:	Using standard Out, In and Error for process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe'.
+27.09.2006 19:33:08	DEBUG:	Process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe' started with pid: 3920
+27.09.2006 19:33:08	DEBUG:	Received message is processed.
+27.09.2006 19:33:18	DEBUG:	Process with pid: 1548 died.
+27.09.2006 19:33:18	DEBUG:	Process with pid: 3516 died.
+27.09.2006 19:33:18	DEBUG:	Process with pid: 3868 died.
+27.09.2006 19:33:18	DEBUG:	Trying to activate a process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe' associated with [WINXP_KLAUS].[Chapter4_ExternalActivation].[dbo].[TargetQueue] because number of running instances is 4 and Min is 5
+27.09.2006 19:33:18	DEBUG:	Activating process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe' associated with [WINXP_KLAUS].[Chapter4_ExternalActivation].[dbo].[TargetQueue] number of running instances is 4 and Max is 15.
+27.09.2006 19:33:18	DEBUG:	Using standard Out, In and Error for process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe'.
+27.09.2006 19:33:18	DEBUG:	Process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe' started with pid: 248
+27.09.2006 19:33:18	DEBUG:	Process with pid: 3068 died.
+27.09.2006 19:33:18	DEBUG:	Trying to activate a process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe' associated with [WINXP_KLAUS].[Chapter4_ExternalActivation].[dbo].[TargetQueue] because number of running instances is 4 and Min is 5
+27.09.2006 19:33:18	DEBUG:	Activating process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe' associated with [WINXP_KLAUS].[Chapter4_ExternalActivation].[dbo].[TargetQueue] number of running instances is 4 and Max is 15.
+27.09.2006 19:33:18	DEBUG:	Using standard Out, In and Error for process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe'.
+27.09.2006 19:33:18	DEBUG:	Process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe' started with pid: 2900
+27.09.2006 19:33:20	DEBUG:	Process with pid: 240 died.
+27.09.2006 19:33:20	DEBUG:	Trying to activate a process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe' associated with [WINXP_KLAUS].[Chapter4_ExternalActivation].[dbo].[TargetQueue] because number of running instances is 4 and Min is 5
+27.09.2006 19:33:20	DEBUG:	Activating process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe' associated with [WINXP_KLAUS].[Chapter4_ExternalActivation].[dbo].[TargetQueue] number of running instances is 4 and Max is 15.
+27.09.2006 19:33:20	DEBUG:	Using standard Out, In and Error for process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe'.
+27.09.2006 19:33:20	DEBUG:	Process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe' started with pid: 4060
+27.09.2006 19:33:20	DEBUG:	Process with pid: 3028 died.
+27.09.2006 19:33:20	DEBUG:	Trying to activate a process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe' associated with [WINXP_KLAUS].[Chapter4_ExternalActivation].[dbo].[TargetQueue] because number of running instances is 4 and Min is 5
+27.09.2006 19:33:20	DEBUG:	Activating process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe' associated with [WINXP_KLAUS].[Chapter4_ExternalActivation].[dbo].[TargetQueue] number of running instances is 4 and Max is 15.
+27.09.2006 19:33:20	DEBUG:	Using standard Out, In and Error for process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe'.
+27.09.2006 19:33:20	DEBUG:	Process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe' started with pid: 3392
+27.09.2006 19:33:23	STATUS:	Monitored applications status
+27.09.2006 19:33:23	STATUS DETAILS:	    Application associated with [WINXP_KLAUS].[Chapter4_ExternalActivation].[dbo].[TargetQueue] monitors 5 running processes. 11 processes were started successfully, last one at 27.09.2006 19:33:20.
+27.09.2006 19:33:25	DEBUG:	Process with pid: 3920 died.
+27.09.2006 19:33:25	DEBUG:	Trying to activate a process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe' associated with [WINXP_KLAUS].[Chapter4_ExternalActivation].[dbo].[TargetQueue] because number of running instances is 4 and Min is 5
+27.09.2006 19:33:25	DEBUG:	Activating process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe' associated with [WINXP_KLAUS].[Chapter4_ExternalActivation].[dbo].[TargetQueue] number of running instances is 4 and Max is 15.
+27.09.2006 19:33:25	DEBUG:	Using standard Out, In and Error for process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe'.
+27.09.2006 19:33:25	DEBUG:	Process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe' started with pid: 3092
+27.09.2006 19:33:29	DEBUG:	Process with pid: 248 died.
+27.09.2006 19:33:29	DEBUG:	Trying to activate a process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe' associated with [WINXP_KLAUS].[Chapter4_ExternalActivation].[dbo].[TargetQueue] because number of running instances is 4 and Min is 5
+27.09.2006 19:33:29	DEBUG:	Activating process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe' associated with [WINXP_KLAUS].[Chapter4_ExternalActivation].[dbo].[TargetQueue] number of running instances is 4 and Max is 15.
+27.09.2006 19:33:29	DEBUG:	Using standard Out, In and Error for process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe'.
+27.09.2006 19:33:29	DEBUG:	Process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe' started with pid: 4052
+27.09.2006 19:33:30	DEBUG:	Process with pid: 3392 died.
+27.09.2006 19:33:30	DEBUG:	Trying to activate a process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe' associated with [WINXP_KLAUS].[Chapter4_ExternalActivation].[dbo].[TargetQueue] because number of running instances is 4 and Min is 5
+27.09.2006 19:33:30	DEBUG:	Activating process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe' associated with [WINXP_KLAUS].[Chapter4_ExternalActivation].[dbo].[TargetQueue] number of running instances is 4 and Max is 15.
+27.09.2006 19:33:30	DEBUG:	Using standard Out, In and Error for process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe'.
+27.09.2006 19:33:30	DEBUG:	Process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe' started with pid: 2076
+27.09.2006 19:33:30	DEBUG:	Process with pid: 2900 died.
+27.09.2006 19:33:30	DEBUG:	Trying to activate a process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe' associated with [WINXP_KLAUS].[Chapter4_ExternalActivation].[dbo].[TargetQueue] because number of running instances is 4 and Min is 5
+27.09.2006 19:33:30	DEBUG:	Activating process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe' associated with [WINXP_KLAUS].[Chapter4_ExternalActivation].[dbo].[TargetQueue] number of running instances is 4 and Max is 15.
+27.09.2006 19:33:30	DEBUG:	Using standard Out, In and Error for process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe'.
+27.09.2006 19:33:30	DEBUG:	Process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe' started with pid: 1624
+27.09.2006 19:33:34	DEBUG:	Process with pid: 4060 died.
+27.09.2006 19:33:34	DEBUG:	Trying to activate a process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe' associated with [WINXP_KLAUS].[Chapter4_ExternalActivation].[dbo].[TargetQueue] because number of running instances is 4 and Min is 5
+27.09.2006 19:33:34	DEBUG:	Activating process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe' associated with [WINXP_KLAUS].[Chapter4_ExternalActivation].[dbo].[TargetQueue] number of running instances is 4 and Max is 15.
+27.09.2006 19:33:34	DEBUG:	Using standard Out, In and Error for process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe'.
+27.09.2006 19:33:34	DEBUG:	Process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe' started with pid: 2532
+27.09.2006 19:33:35	STATUS:	Monitored applications status
+27.09.2006 19:33:35	STATUS DETAILS:	    Application associated with [WINXP_KLAUS].[Chapter4_ExternalActivation].[dbo].[TargetQueue] monitors 5 running processes. 16 processes were started successfully, last one at 27.09.2006 19:33:34.
+27.09.2006 19:33:37	DEBUG:	Check for monitored applications that need to start processes.
+27.09.2006 19:33:37	DEBUG:	Starting up any applications if number of instances is below minimum
+27.09.2006 19:33:39	DEBUG:	Process with pid: 3092 died.
+27.09.2006 19:33:39	DEBUG:	Trying to activate a process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe' associated with [WINXP_KLAUS].[Chapter4_ExternalActivation].[dbo].[TargetQueue] because number of running instances is 4 and Min is 5
+27.09.2006 19:33:39	DEBUG:	Activating process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe' associated with [WINXP_KLAUS].[Chapter4_ExternalActivation].[dbo].[TargetQueue] number of running instances is 4 and Max is 15.
+27.09.2006 19:33:39	DEBUG:	Using standard Out, In and Error for process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe'.
+27.09.2006 19:33:39	DEBUG:	Process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe' started with pid: 3808
+27.09.2006 19:33:41	DEBUG:	Process with pid: 4052 died.
+27.09.2006 19:33:41	DEBUG:	Trying to activate a process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe' associated with [WINXP_KLAUS].[Chapter4_ExternalActivation].[dbo].[TargetQueue] because number of running instances is 4 and Min is 5
+27.09.2006 19:33:41	DEBUG:	Activating process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe' associated with [WINXP_KLAUS].[Chapter4_ExternalActivation].[dbo].[TargetQueue] number of running instances is 4 and Max is 15.
+27.09.2006 19:33:41	DEBUG:	Using standard Out, In and Error for process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe'.
+27.09.2006 19:33:41	DEBUG:	Process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe' started with pid: 540
+27.09.2006 19:33:41	DEBUG:	Process with pid: 1624 died.
+27.09.2006 19:33:41	DEBUG:	Trying to activate a process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe' associated with [WINXP_KLAUS].[Chapter4_ExternalActivation].[dbo].[TargetQueue] because number of running instances is 4 and Min is 5
+27.09.2006 19:33:41	DEBUG:	Activating process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe' associated with [WINXP_KLAUS].[Chapter4_ExternalActivation].[dbo].[TargetQueue] number of running instances is 4 and Max is 15.
+27.09.2006 19:33:41	DEBUG:	Using standard Out, In and Error for process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe'.
+27.09.2006 19:33:41	DEBUG:	Process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe' started with pid: 2788
+27.09.2006 19:33:44	DEBUG:	Process with pid: 2076 died.
+27.09.2006 19:33:44	DEBUG:	Trying to activate a process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe' associated with [WINXP_KLAUS].[Chapter4_ExternalActivation].[dbo].[TargetQueue] because number of running instances is 4 and Min is 5
+27.09.2006 19:33:44	DEBUG:	Activating process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe' associated with [WINXP_KLAUS].[Chapter4_ExternalActivation].[dbo].[TargetQueue] number of running instances is 4 and Max is 15.
+27.09.2006 19:33:44	DEBUG:	Using standard Out, In and Error for process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe'.
+27.09.2006 19:33:44	DEBUG:	Process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe' started with pid: 3160
+27.09.2006 19:33:49	DEBUG:	Process with pid: 2532 died.
+27.09.2006 19:33:49	DEBUG:	Trying to activate a process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe' associated with [WINXP_KLAUS].[Chapter4_ExternalActivation].[dbo].[TargetQueue] because number of running instances is 4 and Min is 5
+27.09.2006 19:33:49	DEBUG:	Activating process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe' associated with [WINXP_KLAUS].[Chapter4_ExternalActivation].[dbo].[TargetQueue] number of running instances is 4 and Max is 15.
+27.09.2006 19:33:49	DEBUG:	Using standard Out, In and Error for process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe'.
+27.09.2006 19:33:49	DEBUG:	Process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe' started with pid: 2344
+27.09.2006 19:33:49	DEBUG:	Process with pid: 3808 died.
+27.09.2006 19:33:49	DEBUG:	Trying to activate a process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe' associated with [WINXP_KLAUS].[Chapter4_ExternalActivation].[dbo].[TargetQueue] because number of running instances is 4 and Min is 5
+27.09.2006 19:33:49	DEBUG:	Activating process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe' associated with [WINXP_KLAUS].[Chapter4_ExternalActivation].[dbo].[TargetQueue] number of running instances is 4 and Max is 15.
+27.09.2006 19:33:49	DEBUG:	Using standard Out, In and Error for process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe'.
+27.09.2006 19:33:49	DEBUG:	Process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe' started with pid: 3388
+27.09.2006 19:33:53	DEBUG:	Process with pid: 2788 died.
+27.09.2006 19:33:53	DEBUG:	Trying to activate a process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe' associated with [WINXP_KLAUS].[Chapter4_ExternalActivation].[dbo].[TargetQueue] because number of running instances is 4 and Min is 5
+27.09.2006 19:33:53	DEBUG:	Activating process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe' associated with [WINXP_KLAUS].[Chapter4_ExternalActivation].[dbo].[TargetQueue] number of running instances is 4 and Max is 15.
+27.09.2006 19:33:53	DEBUG:	Using standard Out, In and Error for process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe'.
+27.09.2006 19:33:53	DEBUG:	Process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe' started with pid: 3740
+27.09.2006 19:33:54	DEBUG:	Process with pid: 540 died.
+27.09.2006 19:33:54	DEBUG:	Trying to activate a process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe' associated with [WINXP_KLAUS].[Chapter4_ExternalActivation].[dbo].[TargetQueue] because number of running instances is 4 and Min is 5
+27.09.2006 19:33:54	DEBUG:	Activating process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe' associated with [WINXP_KLAUS].[Chapter4_ExternalActivation].[dbo].[TargetQueue] number of running instances is 4 and Max is 15.
+27.09.2006 19:33:54	DEBUG:	Using standard Out, In and Error for process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe'.
+27.09.2006 19:33:54	DEBUG:	Process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe' started with pid: 3892
+27.09.2006 19:33:59	DEBUG:	Process with pid: 3160 died.
+27.09.2006 19:33:59	DEBUG:	Trying to activate a process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe' associated with [WINXP_KLAUS].[Chapter4_ExternalActivation].[dbo].[TargetQueue] because number of running instances is 4 and Min is 5
+27.09.2006 19:33:59	DEBUG:	Activating process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe' associated with [WINXP_KLAUS].[Chapter4_ExternalActivation].[dbo].[TargetQueue] number of running instances is 4 and Max is 15.
+27.09.2006 19:33:59	DEBUG:	Using standard Out, In and Error for process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe'.
+27.09.2006 19:33:59	DEBUG:	Process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe' started with pid: 3856
+27.09.2006 19:34:00	DEBUG:	Process with pid: 2344 died.
+27.09.2006 19:34:00	DEBUG:	Trying to activate a process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe' associated with [WINXP_KLAUS].[Chapter4_ExternalActivation].[dbo].[TargetQueue] because number of running instances is 4 and Min is 5
+27.09.2006 19:34:00	DEBUG:	Activating process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe' associated with [WINXP_KLAUS].[Chapter4_ExternalActivation].[dbo].[TargetQueue] number of running instances is 4 and Max is 15.
+27.09.2006 19:34:00	DEBUG:	Using standard Out, In and Error for process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe'.
+27.09.2006 19:34:00	DEBUG:	Process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe' started with pid: 1700
+27.09.2006 19:34:00	DEBUG:	Process with pid: 3388 died.
+27.09.2006 19:34:00	DEBUG:	Trying to activate a process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe' associated with [WINXP_KLAUS].[Chapter4_ExternalActivation].[dbo].[TargetQueue] because number of running instances is 4 and Min is 5
+27.09.2006 19:34:00	DEBUG:	Activating process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe' associated with [WINXP_KLAUS].[Chapter4_ExternalActivation].[dbo].[TargetQueue] number of running instances is 4 and Max is 15.
+27.09.2006 19:34:00	DEBUG:	Using standard Out, In and Error for process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe'.
+27.09.2006 19:34:00	DEBUG:	Process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe' started with pid: 1616
+27.09.2006 19:34:05	DEBUG:	Process with pid: 3740 died.
+27.09.2006 19:34:05	DEBUG:	Trying to activate a process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe' associated with [WINXP_KLAUS].[Chapter4_ExternalActivation].[dbo].[TargetQueue] because number of running instances is 4 and Min is 5
+27.09.2006 19:34:05	DEBUG:	Activating process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe' associated with [WINXP_KLAUS].[Chapter4_ExternalActivation].[dbo].[TargetQueue] number of running instances is 4 and Max is 15.
+27.09.2006 19:34:05	DEBUG:	Using standard Out, In and Error for process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe'.
+27.09.2006 19:34:05	DEBUG:	Process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe' started with pid: 3296
+27.09.2006 19:34:07	DEBUG:	Check for monitored applications that need to start processes.
+27.09.2006 19:34:07	DEBUG:	Starting up any applications if number of instances is below minimum
+27.09.2006 19:34:09	DEBUG:	Process with pid: 3892 died.
+27.09.2006 19:34:09	DEBUG:	Trying to activate a process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe' associated with [WINXP_KLAUS].[Chapter4_ExternalActivation].[dbo].[TargetQueue] because number of running instances is 4 and Min is 5
+27.09.2006 19:34:09	DEBUG:	Activating process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe' associated with [WINXP_KLAUS].[Chapter4_ExternalActivation].[dbo].[TargetQueue] number of running instances is 4 and Max is 15.
+27.09.2006 19:34:09	DEBUG:	Using standard Out, In and Error for process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe'.
+27.09.2006 19:34:09	DEBUG:	Process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe' started with pid: 4144
+27.09.2006 19:34:10	DEBUG:	Process with pid: 3856 died.
+27.09.2006 19:34:10	DEBUG:	Trying to activate a process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe' associated with [WINXP_KLAUS].[Chapter4_ExternalActivation].[dbo].[TargetQueue] because number of running instances is 4 and Min is 5
+27.09.2006 19:34:10	DEBUG:	Activating process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe' associated with [WINXP_KLAUS].[Chapter4_ExternalActivation].[dbo].[TargetQueue] number of running instances is 4 and Max is 15.
+27.09.2006 19:34:10	DEBUG:	Using standard Out, In and Error for process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe'.
+27.09.2006 19:34:10	DEBUG:	Process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe' started with pid: 4212
+27.09.2006 19:34:10	DEBUG:	Process with pid: 1700 died.
+27.09.2006 19:34:10	DEBUG:	Trying to activate a process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe' associated with [WINXP_KLAUS].[Chapter4_ExternalActivation].[dbo].[TargetQueue] because number of running instances is 4 and Min is 5
+27.09.2006 19:34:10	DEBUG:	Activating process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe' associated with [WINXP_KLAUS].[Chapter4_ExternalActivation].[dbo].[TargetQueue] number of running instances is 4 and Max is 15.
+27.09.2006 19:34:10	DEBUG:	Using standard Out, In and Error for process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe'.
+27.09.2006 19:34:10	DEBUG:	Process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe' started with pid: 4280
+27.09.2006 19:34:15	DEBUG:	Process with pid: 1616 died.
+27.09.2006 19:34:15	DEBUG:	Trying to activate a process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe' associated with [WINXP_KLAUS].[Chapter4_ExternalActivation].[dbo].[TargetQueue] because number of running instances is 4 and Min is 5
+27.09.2006 19:34:15	DEBUG:	Activating process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe' associated with [WINXP_KLAUS].[Chapter4_ExternalActivation].[dbo].[TargetQueue] number of running instances is 4 and Max is 15.
+27.09.2006 19:34:15	DEBUG:	Using standard Out, In and Error for process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe'.
+27.09.2006 19:34:15	DEBUG:	Process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe' started with pid: 4460
+27.09.2006 19:34:17	DEBUG:	Process with pid: 3296 died.
+27.09.2006 19:34:17	DEBUG:	Trying to activate a process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe' associated with [WINXP_KLAUS].[Chapter4_ExternalActivation].[dbo].[TargetQueue] because number of running instances is 4 and Min is 5
+27.09.2006 19:34:17	DEBUG:	Activating process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe' associated with [WINXP_KLAUS].[Chapter4_ExternalActivation].[dbo].[TargetQueue] number of running instances is 4 and Max is 15.
+27.09.2006 19:34:17	DEBUG:	Using standard Out, In and Error for process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe'.
+27.09.2006 19:34:17	DEBUG:	Process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe' started with pid: 4560
+27.09.2006 19:34:19	DEBUG:	Process with pid: 4144 died.
+27.09.2006 19:34:19	DEBUG:	Trying to activate a process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe' associated with [WINXP_KLAUS].[Chapter4_ExternalActivation].[dbo].[TargetQueue] because number of running instances is 4 and Min is 5
+27.09.2006 19:34:19	DEBUG:	Activating process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe' associated with [WINXP_KLAUS].[Chapter4_ExternalActivation].[dbo].[TargetQueue] number of running instances is 4 and Max is 15.
+27.09.2006 19:34:19	DEBUG:	Using standard Out, In and Error for process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe'.
+27.09.2006 19:34:19	DEBUG:	Process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe' started with pid: 4652
+27.09.2006 19:34:20	DEBUG:	Process with pid: 4212 died.
+27.09.2006 19:34:20	DEBUG:	Trying to activate a process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe' associated with [WINXP_KLAUS].[Chapter4_ExternalActivation].[dbo].[TargetQueue] because number of running instances is 4 and Min is 5
+27.09.2006 19:34:20	DEBUG:	Activating process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe' associated with [WINXP_KLAUS].[Chapter4_ExternalActivation].[dbo].[TargetQueue] number of running instances is 4 and Max is 15.
+27.09.2006 19:34:20	DEBUG:	Using standard Out, In and Error for process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe'.
+27.09.2006 19:34:20	DEBUG:	Process 'd:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe' started with pid: 4720
+27.09.2006 19:34:22	STATUS:	External Activator is shutting down...
+27.09.2006 19:34:22	STATUS:	Shutting down the recovery log manager
+27.09.2006 19:34:22	DEBUG:	Checkpointing the recovery log ...
+27.09.2006 19:34:22	DEBUG:	Checkpointed the recovery log.

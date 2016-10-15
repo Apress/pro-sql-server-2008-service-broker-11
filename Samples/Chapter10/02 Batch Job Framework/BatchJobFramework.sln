@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BatchFramework.Implementation", "BatchFramework.Implementation\BatchFramework.Implementation.csproj", "{7356D6C0-8824-4143-814C-A3D557E309F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BatchFramework.Interfaces", "BatchFramework.Interfaces\BatchFramework.Interfaces.csproj", "{10A568C6-0135-40C5-A519-995D03A1BA5A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BatchFramework.TicketReservationTask", "BatchFramework.TicketReservationTask\BatchFramework.TicketReservationTask.csproj", "{FBA90F76-152B-479D-9EB8-0923B42E3E27}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7356D6C0-8824-4143-814C-A3D557E309F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7356D6C0-8824-4143-814C-A3D557E309F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7356D6C0-8824-4143-814C-A3D557E309F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7356D6C0-8824-4143-814C-A3D557E309F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10A568C6-0135-40C5-A519-995D03A1BA5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10A568C6-0135-40C5-A519-995D03A1BA5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10A568C6-0135-40C5-A519-995D03A1BA5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10A568C6-0135-40C5-A519-995D03A1BA5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBA90F76-152B-479D-9EB8-0923B42E3E27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBA90F76-152B-479D-9EB8-0923B42E3E27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBA90F76-152B-479D-9EB8-0923B42E3E27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBA90F76-152B-479D-9EB8-0923B42E3E27}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

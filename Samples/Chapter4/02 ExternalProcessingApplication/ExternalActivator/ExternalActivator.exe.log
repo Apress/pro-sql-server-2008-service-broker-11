@@ -1,0 +1,109 @@
+17.12.2006 18:44:26	STATUS:	--- Output logging has started ---
+17.12.2006 18:44:26	STATUS:	External Activator is initializing...
+17.12.2006 18:44:26	STATUS:	Running recovery using 'D:\Klaus\Chapter 4\Samples\02 ExternalProcessingApplication\ExternalActivator\ExternalActivator.exe.RecoveryLog' ...
+17.12.2006 18:44:26	STATUS:	Recovery completed.
+17.12.2006 18:44:26	STATUS:	Initializing configuration manager...
+17.12.2006 18:44:26	STATUS:	Debug information will be reported in the output log.
+17.12.2006 18:44:26	STATUS:	External Activator initialization completed.
+17.12.2006 18:44:26	DEBUG:	Re-reading the Configuration File because Configuration File changes might have occurred before FileSystemWatcher was registered
+17.12.2006 18:44:26	DEBUG:	Starting up any applications if number of instances is below minimum
+17.12.2006 18:44:27	DEBUG:	Starting up the Notification service...
+17.12.2006 18:44:27	WARNING:	Failed to connect to Notification SQL Server 'localhost' and Database: 'Chapter4_ExternalActivation' because: Login failed for user 'windowsvista\Klaus Aschenbrenner'.
+17.12.2006 18:44:29	DEBUG:	Failed to connect to Notification SQL Server 'localhost' and Database: 'Chapter4_ExternalActivation' because: Login failed for user 'windowsvista\Klaus Aschenbrenner'.
+17.12.2006 18:44:31	STATUS:	Monitored applications status
+17.12.2006 18:44:31	STATUS DETAILS:	    Application associated with [windowsvista].[Chapter4_ExternalActivation].[dbo].[TargetQueue] monitors 0 running processes. 0 processes were started successfully.
+17.12.2006 18:44:33	DEBUG:	Failed to connect to Notification SQL Server 'localhost' and Database: 'Chapter4_ExternalActivation' because: Login failed for user 'windowsvista\Klaus Aschenbrenner'.
+17.12.2006 18:44:41	DEBUG:	Failed to connect to Notification SQL Server 'localhost' and Database: 'Chapter4_ExternalActivation' because: Login failed for user 'windowsvista\Klaus Aschenbrenner'.
+17.12.2006 18:44:47	STATUS:	Monitored applications status
+17.12.2006 18:44:47	STATUS DETAILS:	    Application associated with [windowsvista].[Chapter4_ExternalActivation].[dbo].[TargetQueue] monitors 0 running processes. 0 processes were started successfully.
+17.12.2006 18:44:53	STATUS:	External Activator is shutting down...
+17.12.2006 18:44:53	STATUS:	Shutting down the recovery log manager
+17.12.2006 18:44:53	DEBUG:	Checkpointing the recovery log ...
+17.12.2006 18:44:53	DEBUG:	Checkpointed the recovery log.
+17.12.2006 18:45:09	STATUS:	--- Output logging has started ---
+17.12.2006 18:45:09	STATUS:	External Activator is initializing...
+17.12.2006 18:45:09	STATUS:	Running recovery using 'D:\Klaus\Chapter 4\Samples\02 ExternalProcessingApplication\ExternalActivator\ExternalActivator.exe.RecoveryLog' ...
+17.12.2006 18:45:09	STATUS:	Recovery completed.
+17.12.2006 18:45:09	STATUS:	Initializing configuration manager...
+17.12.2006 18:45:09	STATUS:	Debug information will be reported in the output log.
+17.12.2006 18:45:09	STATUS:	External Activator initialization completed.
+17.12.2006 18:45:09	DEBUG:	Re-reading the Configuration File because Configuration File changes might have occurred before FileSystemWatcher was registered
+17.12.2006 18:45:09	DEBUG:	Starting up any applications if number of instances is below minimum
+17.12.2006 18:45:09	DEBUG:	Starting up the Notification service...
+17.12.2006 18:45:09	WARNING:	Failed to connect to Notification SQL Server 'localhost' and Database: 'Chapter4_ExternalActivation' because: Login failed for user 'windowsvista\Klaus Aschenbrenner'.
+17.12.2006 18:45:11	DEBUG:	Failed to connect to Notification SQL Server 'localhost' and Database: 'Chapter4_ExternalActivation' because: Login failed for user 'windowsvista\Klaus Aschenbrenner'.
+17.12.2006 18:45:12	STATUS:	Monitored applications status
+17.12.2006 18:45:12	STATUS DETAILS:	    Application associated with [WINDOWSVISTA].[Chapter4_ExternalActivation].[dbo].[TargetQueue] monitors 0 running processes. 0 processes were started successfully.
+17.12.2006 18:45:15	DEBUG:	Failed to connect to Notification SQL Server 'localhost' and Database: 'Chapter4_ExternalActivation' because: Login failed for user 'windowsvista\Klaus Aschenbrenner'.
+17.12.2006 18:45:23	DEBUG:	Failed to connect to Notification SQL Server 'localhost' and Database: 'Chapter4_ExternalActivation' because: Login failed for user 'windowsvista\Klaus Aschenbrenner'.
+17.12.2006 18:45:39	DEBUG:	Check for monitored applications that need to start processes.
+17.12.2006 18:45:39	DEBUG:	Starting up any applications if number of instances is below minimum
+17.12.2006 18:45:39	DEBUG:	Failed to connect to Notification SQL Server 'localhost' and Database: 'Chapter4_ExternalActivation' because: Login failed for user 'windowsvista\Klaus Aschenbrenner'.
+17.12.2006 18:45:48	STATUS:	Debug information will be reported in the output log.
+17.12.2006 18:45:53	STATUS:	Configuration status for notification service 'ExternalActivatorService' on SQL Server 'localhost' and Database 'Chapter4_ExternalActivation'.
+17.12.2006 18:45:53	STATUS DETAILS:	    Enabled configuration associated with [WINDOWSVISTA].[Chapter4_ExternalActivation].[dbo].[TargetQueue] and application <D:\Klaus\Chapter 4\Samples\02 ExternalProcessingApplication\ProcessingApplication\bin\Debug\ProcessingApplication.exe>	Min=0 Max=10 and requires console.
+17.12.2006 18:46:08	STATUS:	Monitored applications status
+17.12.2006 18:46:08	STATUS DETAILS:	    Application associated with [WINDOWSVISTA].[Chapter4_ExternalActivation].[dbo].[TargetQueue] monitors 0 running processes. 0 processes were started successfully.
+17.12.2006 18:46:09	DEBUG:	Check for monitored applications that need to start processes.
+17.12.2006 18:46:09	DEBUG:	Starting up any applications if number of instances is below minimum
+17.12.2006 18:46:11	DEBUG:	Failed to connect to Notification SQL Server 'localhost' and Database: 'Chapter4_ExternalActivation' because: Login failed for user 'windowsvista\Klaus Aschenbrenner'.
+17.12.2006 18:46:15	STATUS:	Notification service 'ExternalActivatorService' on SQL Server 'localhost' and Database 'Chapter4_ExternalActivation' is not connected, because: 'Login failed for user 'windowsvista\Klaus Aschenbrenner'.'
+17.12.2006 18:46:25	STATUS:	External Activator is shutting down...
+17.12.2006 18:46:25	STATUS:	Shutting down the recovery log manager
+17.12.2006 18:46:25	DEBUG:	Checkpointing the recovery log ...
+17.12.2006 18:46:25	DEBUG:	Checkpointed the recovery log.
+17.12.2006 18:47:19	STATUS:	--- Output logging has started ---
+17.12.2006 18:47:19	STATUS:	External Activator is initializing...
+17.12.2006 18:47:19	STATUS:	Running recovery using 'D:\Klaus\Chapter 4\Samples\02 ExternalProcessingApplication\ExternalActivator\ExternalActivator.exe.RecoveryLog' ...
+17.12.2006 18:47:19	STATUS:	Recovery completed.
+17.12.2006 18:47:19	STATUS:	Initializing configuration manager...
+17.12.2006 18:47:19	STATUS:	Debug information will be reported in the output log.
+17.12.2006 18:47:19	STATUS:	External Activator initialization completed.
+17.12.2006 18:47:19	DEBUG:	Re-reading the Configuration File because Configuration File changes might have occurred before FileSystemWatcher was registered
+17.12.2006 18:47:19	DEBUG:	Starting up any applications if number of instances is below minimum
+17.12.2006 18:47:19	DEBUG:	Starting up the Notification service...
+17.12.2006 18:47:19	INFO:	Connection to notification SQL server 'localhost' and database 'Chapter4_ExternalActivation' is established.
+17.12.2006 18:47:19	INFO:	Notification service 'ExternalActivatorService' is started.
+17.12.2006 18:47:19	DEBUG:	Processing received message...
+17.12.2006 18:47:19	DEBUG:	Trying to start application associated with [WINDOWSVISTA].[Chapter4_ExternalActivation].[dbo].[TargetQueue] because a notification message was received.
+17.12.2006 18:47:19	DEBUG:	Activating process 'D:\Klaus\Chapter 4\Samples\02 ExternalProcessingApplication\ProcessingApplication\bin\Debug\ProcessingApplication.exe' associated with [WINDOWSVISTA].[Chapter4_ExternalActivation].[dbo].[TargetQueue] number of running instances is 0 and Max is 10.
+17.12.2006 18:47:19	DEBUG:	Using standard Out, In and Error for process 'D:\Klaus\Chapter 4\Samples\02 ExternalProcessingApplication\ProcessingApplication\bin\Debug\ProcessingApplication.exe'.
+17.12.2006 18:47:19	DEBUG:	Process 'D:\Klaus\Chapter 4\Samples\02 ExternalProcessingApplication\ProcessingApplication\bin\Debug\ProcessingApplication.exe' started with pid: 4268
+17.12.2006 18:47:19	DEBUG:	Received message is processed.
+17.12.2006 18:47:24	DEBUG:	Process with pid: 4268 died.
+17.12.2006 18:47:26	STATUS:	External Activator is shutting down...
+17.12.2006 18:47:26	STATUS:	Shutting down the recovery log manager
+17.12.2006 18:47:26	DEBUG:	Checkpointing the recovery log ...
+17.12.2006 18:47:27	DEBUG:	Checkpointed the recovery log.
+17.12.2006 18:47:47	STATUS:	--- Output logging has started ---
+17.12.2006 18:47:47	STATUS:	External Activator is initializing...
+17.12.2006 18:47:47	STATUS:	Running recovery using 'D:\Klaus\Chapter 4\Samples\02 ExternalProcessingApplication\ExternalActivator\ExternalActivator.exe.RecoveryLog' ...
+17.12.2006 18:47:47	STATUS:	Recovery completed.
+17.12.2006 18:47:47	STATUS:	Initializing configuration manager...
+17.12.2006 18:47:48	STATUS:	Debug information will be reported in the output log.
+17.12.2006 18:47:48	STATUS:	External Activator initialization completed.
+17.12.2006 18:47:48	DEBUG:	Re-reading the Configuration File because Configuration File changes might have occurred before FileSystemWatcher was registered
+17.12.2006 18:47:48	DEBUG:	Starting up any applications if number of instances is below minimum
+17.12.2006 18:47:48	DEBUG:	Starting up the Notification service...
+17.12.2006 18:47:48	INFO:	Connection to notification SQL server 'localhost' and database 'Chapter4_ExternalActivation' is established.
+17.12.2006 18:47:48	INFO:	Notification service 'ExternalActivatorService' is started.
+17.12.2006 18:47:55	DEBUG:	Processing received message...
+17.12.2006 18:47:55	DEBUG:	Trying to start application associated with [WINDOWSVISTA].[Chapter4_ExternalActivation].[dbo].[TargetQueue] because a notification message was received.
+17.12.2006 18:47:55	DEBUG:	Activating process 'D:\Klaus\Chapter 4\Samples\02 ExternalProcessingApplication\ProcessingApplication\bin\Debug\ProcessingApplication.exe' associated with [WINDOWSVISTA].[Chapter4_ExternalActivation].[dbo].[TargetQueue] number of running instances is 0 and Max is 10.
+17.12.2006 18:47:55	DEBUG:	Using standard Out, In and Error for process 'D:\Klaus\Chapter 4\Samples\02 ExternalProcessingApplication\ProcessingApplication\bin\Debug\ProcessingApplication.exe'.
+17.12.2006 18:47:55	DEBUG:	Process 'D:\Klaus\Chapter 4\Samples\02 ExternalProcessingApplication\ProcessingApplication\bin\Debug\ProcessingApplication.exe' started with pid: 5344
+17.12.2006 18:47:55	DEBUG:	Received message is processed.
+17.12.2006 18:48:07	DEBUG:	Process with pid: 5344 died.
+17.12.2006 18:48:10	DEBUG:	Processing received message...
+17.12.2006 18:48:10	DEBUG:	Trying to start application associated with [WINDOWSVISTA].[Chapter4_ExternalActivation].[dbo].[TargetQueue] because a notification message was received.
+17.12.2006 18:48:10	DEBUG:	Activating process 'D:\Klaus\Chapter 4\Samples\02 ExternalProcessingApplication\ProcessingApplication\bin\Debug\ProcessingApplication.exe' associated with [WINDOWSVISTA].[Chapter4_ExternalActivation].[dbo].[TargetQueue] number of running instances is 0 and Max is 10.
+17.12.2006 18:48:10	DEBUG:	Using standard Out, In and Error for process 'D:\Klaus\Chapter 4\Samples\02 ExternalProcessingApplication\ProcessingApplication\bin\Debug\ProcessingApplication.exe'.
+17.12.2006 18:48:10	DEBUG:	Process 'D:\Klaus\Chapter 4\Samples\02 ExternalProcessingApplication\ProcessingApplication\bin\Debug\ProcessingApplication.exe' started with pid: 5360
+17.12.2006 18:48:10	DEBUG:	Received message is processed.
+17.12.2006 18:48:17	DEBUG:	Check for monitored applications that need to start processes.
+17.12.2006 18:48:17	DEBUG:	Starting up any applications if number of instances is below minimum
+17.12.2006 18:48:22	DEBUG:	Process with pid: 5360 died.
+17.12.2006 18:48:24	STATUS:	External Activator is shutting down...
+17.12.2006 18:48:24	STATUS:	Shutting down the recovery log manager
+17.12.2006 18:48:24	DEBUG:	Checkpointing the recovery log ...
+17.12.2006 18:48:24	DEBUG:	Checkpointed the recovery log.

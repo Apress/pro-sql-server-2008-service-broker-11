@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JobServer.Implementation", "JobServer.Implementation\JobServer.Implementation.csproj", "{EC8C7B83-CBAB-4D90-95AB-B6F10BF40304}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JobServer.Interfaces", "JobServer.Interfaces\JobServer.Interfaces.csproj", "{645334D2-1E47-4680-B100-F2890C6EF657}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{650FBE67-01E7-4895-9B3A-9FA5272DE9E0}"
+	ProjectSection(SolutionItems) = preProject
+		Common\JobServerTaskRequest.xsd = Common\JobServerTaskRequest.xsd
+		Common\JobServerTaskRequest.xsx = Common\JobServerTaskRequest.xsx
+		JobServerTaskResponse.xsd = JobServerTaskResponse.xsd
+		JobServerTaskResponse.xsx = JobServerTaskResponse.xsx
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JobServer.MyCustomTask", "JobServer.MyCustomTask\JobServer.MyCustomTask.csproj", "{D9082704-C209-4E2F-83E0-A5FD7F770E89}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EC8C7B83-CBAB-4D90-95AB-B6F10BF40304}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC8C7B83-CBAB-4D90-95AB-B6F10BF40304}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC8C7B83-CBAB-4D90-95AB-B6F10BF40304}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{EC8C7B83-CBAB-4D90-95AB-B6F10BF40304}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC8C7B83-CBAB-4D90-95AB-B6F10BF40304}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC8C7B83-CBAB-4D90-95AB-B6F10BF40304}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{645334D2-1E47-4680-B100-F2890C6EF657}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{645334D2-1E47-4680-B100-F2890C6EF657}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{645334D2-1E47-4680-B100-F2890C6EF657}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{645334D2-1E47-4680-B100-F2890C6EF657}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{645334D2-1E47-4680-B100-F2890C6EF657}.Release|Any CPU.Build.0 = Release|Any CPU
+		{645334D2-1E47-4680-B100-F2890C6EF657}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{D9082704-C209-4E2F-83E0-A5FD7F770E89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9082704-C209-4E2F-83E0-A5FD7F770E89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9082704-C209-4E2F-83E0-A5FD7F770E89}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{D9082704-C209-4E2F-83E0-A5FD7F770E89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9082704-C209-4E2F-83E0-A5FD7F770E89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9082704-C209-4E2F-83E0-A5FD7F770E89}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

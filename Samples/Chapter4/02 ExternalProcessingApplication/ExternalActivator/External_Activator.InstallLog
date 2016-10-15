@@ -1,0 +1,13 @@
+﻿
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+Installing service External_Activator...
+Service External_Activator has been successfully installed.
+Creating EventLog source External_Activator in log Application...
+
+The Install phase completed successfully, and the Commit phase is beginning.
+
+The Commit phase completed successfully.
+
+The transacted install has completed.

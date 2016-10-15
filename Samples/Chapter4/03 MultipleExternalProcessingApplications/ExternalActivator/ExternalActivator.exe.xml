@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Activator>
+	<Setup>
+		<NotificationSQLServer>localhost\sql2008feb</NotificationSQLServer>
+		<NotificationDatabase>Chapter4_ExternalActivationMultipleActivatedApplications</NotificationDatabase>
+		<NotificationService>ExternalActivatorService</NotificationService>
+
+		<EnableDebugTrace>true</EnableDebugTrace>
+	</Setup>
+
+	<ConfigurationRecord Enabled ="true">
+		<ApplicationName>J:\Pro SQL 2008 Service Broker\Chapter 4\Samples\03 MultipleExternalProcessingApplications\ProcessingApplication1\bin\Debug\ProcessingApplication1.exe</ApplicationName>
+		<SQLServer>ANECON-HP42\SQL2008FEB</SQLServer>
+		<Database>Chapter4_ExternalActivationMultipleActivatedApplications</Database>
+		<Schema>dbo</Schema>
+		<Queue>TargetQueue1</Queue>
+		<CommandLineArgs/>
+		<Min>0</Min>
+		<Max>5</Max>
+		<HasConsole>true</HasConsole>
+		<StandardOut/>
+		<StandardIn/>
+		<StandardErr/>
+	</ConfigurationRecord>
+
+	<ConfigurationRecord Enabled ="true">
+		<ApplicationName>J:\Pro SQL 2008 Service Broker\Chapter 4\Samples\03 MultipleExternalProcessingApplications\ProcessingApplication2\bin\Debug\ProcessingApplication2.exe</ApplicationName>
+		<SQLServer>ANECON-HP42\SQL2008FEB</SQLServer>
+		<Database>Chapter4_ExternalActivationMultipleActivatedApplications</Database>
+		<Schema>dbo</Schema>
+		<Queue>TargetQueue2</Queue>
+		<CommandLineArgs/>
+		<Min>0</Min>
+		<Max>5</Max>
+		<HasConsole>true</HasConsole>
+		<StandardOut/>
+		<StandardIn/>
+		<StandardErr/>
+	</ConfigurationRecord>
+</Activator>

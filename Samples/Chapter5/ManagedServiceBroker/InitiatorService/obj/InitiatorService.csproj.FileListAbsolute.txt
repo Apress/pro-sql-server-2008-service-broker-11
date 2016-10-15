@@ -1,0 +1,7 @@
+J:\Pro SQL 2008 Service Broker\Chapter 5\Samples\ManagedServiceBroker\InitiatorService\bin\Debug\InitiatorService.dll
+J:\Pro SQL 2008 Service Broker\Chapter 5\Samples\ManagedServiceBroker\InitiatorService\bin\Debug\InitiatorService.pdb
+J:\Pro SQL 2008 Service Broker\Chapter 5\Samples\ManagedServiceBroker\InitiatorService\bin\Debug\ServiceBrokerInterface.dll
+J:\Pro SQL 2008 Service Broker\Chapter 5\Samples\ManagedServiceBroker\InitiatorService\bin\Debug\ServiceBrokerInterface.pdb
+J:\Pro SQL 2008 Service Broker\Chapter 5\Samples\ManagedServiceBroker\InitiatorService\obj\Debug\ResolveAssemblyReference.cache
+J:\Pro SQL 2008 Service Broker\Chapter 5\Samples\ManagedServiceBroker\InitiatorService\obj\Debug\InitiatorService.dll
+J:\Pro SQL 2008 Service Broker\Chapter 5\Samples\ManagedServiceBroker\InitiatorService\obj\Debug\InitiatorService.pdb

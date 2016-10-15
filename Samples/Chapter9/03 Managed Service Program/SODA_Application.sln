@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderServiceLibrary", "OrderServiceLibrary\OrderServiceLibrary.csproj", "{BDD81345-DF8B-4180-9F7B-29CFE8B377F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceBrokerInterface", "ServiceBrokerInterface\ServiceBrokerInterface.csproj", "{00683377-A75F-47EB-8934-1484D6480877}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccountingServiceLibrary", "AccountingServiceLibrary\AccountingServiceLibrary.csproj", "{612C8829-A56E-4A6B-90B0-CD2E2017994D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreditCardServiceLibrary", "CreditCardServiceLibrary\CreditCardServiceLibrary.csproj", "{AE6CD8EA-DF92-4C24-949E-4712DFF3CFF8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InventoryServiceLibrary", "InventoryServiceLibrary\InventoryServiceLibrary.csproj", "{D8D66C4F-0863-462D-B94D-75B9931155A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShippingServiceLibrary", "ShippingServiceLibrary\ShippingServiceLibrary.csproj", "{A15A0C52-410F-4125-9C52-A7756C9D2651}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientServiceLibrary", "ClientServiceLibrary\ClientServiceLibrary.csproj", "{FF000D26-1345-4C64-BCC5-2A5B36C210AB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BDD81345-DF8B-4180-9F7B-29CFE8B377F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDD81345-DF8B-4180-9F7B-29CFE8B377F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDD81345-DF8B-4180-9F7B-29CFE8B377F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDD81345-DF8B-4180-9F7B-29CFE8B377F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00683377-A75F-47EB-8934-1484D6480877}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00683377-A75F-47EB-8934-1484D6480877}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00683377-A75F-47EB-8934-1484D6480877}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00683377-A75F-47EB-8934-1484D6480877}.Release|Any CPU.Build.0 = Release|Any CPU
+		{612C8829-A56E-4A6B-90B0-CD2E2017994D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{612C8829-A56E-4A6B-90B0-CD2E2017994D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{612C8829-A56E-4A6B-90B0-CD2E2017994D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{612C8829-A56E-4A6B-90B0-CD2E2017994D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE6CD8EA-DF92-4C24-949E-4712DFF3CFF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE6CD8EA-DF92-4C24-949E-4712DFF3CFF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE6CD8EA-DF92-4C24-949E-4712DFF3CFF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE6CD8EA-DF92-4C24-949E-4712DFF3CFF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8D66C4F-0863-462D-B94D-75B9931155A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8D66C4F-0863-462D-B94D-75B9931155A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8D66C4F-0863-462D-B94D-75B9931155A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8D66C4F-0863-462D-B94D-75B9931155A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A15A0C52-410F-4125-9C52-A7756C9D2651}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A15A0C52-410F-4125-9C52-A7756C9D2651}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A15A0C52-410F-4125-9C52-A7756C9D2651}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A15A0C52-410F-4125-9C52-A7756C9D2651}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF000D26-1345-4C64-BCC5-2A5B36C210AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF000D26-1345-4C64-BCC5-2A5B36C210AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF000D26-1345-4C64-BCC5-2A5B36C210AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF000D26-1345-4C64-BCC5-2A5B36C210AB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

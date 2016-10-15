@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Activator>
+	<Setup>
+		<!-- define the notification service that we will listen on -->
+		<NotificationSQLServer>localhost</NotificationSQLServer>
+		<NotificationDatabase>Chapter4_ExternalActivation</NotificationDatabase>
+		<NotificationService>ExternalActivatorService</NotificationService>
+
+		<!-- optional elements -->
+		<!-- default false -->
+		<EnableDebugTrace>true</EnableDebugTrace>
+	</Setup>
+
+	<ConfigurationRecord Enabled ="true">
+		<ApplicationName>d:\Klaus\Work\Private\Apress\Pro SQL 2005 Service Broker\Chapter 4\Samples\02 ExternalProcessingApplication\bin\Debug\ProcessingApplication.exe</ApplicationName>
+
+		<!-- optional elements -->
+		<!-- the name of the SQL server where the user queue resides. Can be * which will mean any -->
+		<SQLServer>WINXP_KLAUS</SQLServer>
+		<!-- the name of the database where the user queue resides. Can be * which will mean any -->
+		<Database>Chapter4_ExternalActivation</Database>
+		<!-- the name of the schema of the user queue. Can be * which will mean any -->
+		<Schema>dbo</Schema>
+		<!-- the name of the user queue. Can be * which will mean any -->
+		<Queue>TargetQueue</Queue>
+		<!-- default "". You can use following macros: %sqlserver% %database% %schema% %queue%.
+			they will be replaced with the names from the configuration record
+			before the application is started. -->
+		<CommandLineArgs/>
+		<!-- default 0 -->
+		<Min>0</Min>
+		<!-- default 1 -->
+		<Max>5</Max>
+		<!-- default false -->
+		<HasConsole>true</HasConsole>
+		<!-- default use the standard output-->
+		<StandardOut/>
+		<!-- default use the standard input-->
+		<StandardIn/>
+		<!-- default use the standard error output-->
+		<StandardErr/>
+	</ConfigurationRecord>
+</Activator>

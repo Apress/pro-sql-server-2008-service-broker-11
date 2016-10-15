@@ -1,0 +1,6 @@
+obj\Debug\ResolveAssemblyReference.cache
+bin\Debug\ServiceBrokerInterface.dll
+bin\Debug\ServiceBrokerInterface.pdb
+bin\Debug\Microsoft.SqlServer.Broker.XML
+obj\Debug\ServiceBrokerInterface.dll
+obj\Debug\ServiceBrokerInterface.pdb

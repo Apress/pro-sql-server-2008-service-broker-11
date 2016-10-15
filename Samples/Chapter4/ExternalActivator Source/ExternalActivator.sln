@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExternalActivator", "ExternalActivator.csproj", "{33B04B95-E126-4F98-9AAC-7A4C7AA6B216}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceBrokerInterface", "C:\Program Files\Microsoft SQL Server\90\Samples\Engine\ServiceBroker\ServiceBrokerInterface\cs\ServiceBrokerInterface\ServiceBrokerInterface.csproj", "{00683377-A75F-47EB-8934-1484D6480877}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{33B04B95-E126-4F98-9AAC-7A4C7AA6B216}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33B04B95-E126-4F98-9AAC-7A4C7AA6B216}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33B04B95-E126-4F98-9AAC-7A4C7AA6B216}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33B04B95-E126-4F98-9AAC-7A4C7AA6B216}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00683377-A75F-47EB-8934-1484D6480877}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00683377-A75F-47EB-8934-1484D6480877}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00683377-A75F-47EB-8934-1484D6480877}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00683377-A75F-47EB-8934-1484D6480877}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
